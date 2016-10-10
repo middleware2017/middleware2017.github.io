@@ -14,7 +14,42 @@
       <link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css">
       <link rel="stylesheet" href="assets/css/vanillabox/vanillabox.css" type="text/css">
       <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-      <title>2017 ACM/IFIP/USENIX International Middleware Conference</title>
+      
+    <script language="JavaScript1.2">
+            var howOften = 4; //number often in seconds to rotate
+            var current = 0; //start the counter at 0
+            var ns6 = document.getElementById&&!document.all; //detect netscape 6
+            // place your images, text, etc in the array elements here
+            var items = new Array();
+            items[0]="<img alt='Las Vegas in Winter!' src='assets/img/vegas1.jpg' height='400' width='710' border='0'/>"; 
+            items[1]="<img alt='Las Vegas in Winter!' src='assets/img/vegas2.jpg' height='400' width='710' border='0'/>"; 
+            items[2]="<img alt='Las Vegas in Winter!' src='assets/img/vegas3.jpg' height='400' width='710' border='0'/>"; 
+            items[3]="<img alt='Las Vegas in Winter!' src='assets/img/vegas4.jpg' height='400' width='710' border='0'/>"; 
+
+            function rotater() {
+                document.getElementById("rotating_pics").innerHTML = items[current];
+                current = (current==items.length-1) ? 0 : current + 1;
+                setTimeout("rotater()",howOften*1000);
+            }
+
+            function rotater() {
+                if(document.layers)
+                {
+                    document.placeholderlayer.document.write(items[current]);
+                    document.placeholderlayer.document.close();
+                }
+                if(ns6)document.getElementById("rotating_pics").innerHTML=items[current]
+                    if(document.all)
+                        placeholderdiv.innerHTML=items[current];
+                        current = (current==items.length-1) ? 0 : current + 1; //increment or reset
+                        setTimeout("rotater()",howOften*1000);
+            }
+            window.onload=rotater;
+   //-->
+   </script>
+
+
+   <title>2017 ACM/IFIP/USENIX International Middleware Conference</title>
    </head>
    <body class="page-sub-page page-microsite">
       <!-- Wrapper -->
@@ -65,7 +100,7 @@
                            <div class="row">
                               <div class="image-carousel">
                                  <div class="slide">
-                                    <div class="image-carousel-slide"><img src="assets/img/vegas.jpg" alt=""></div>
+                                    <div class="image-carousel-slide" id="rotating_pics"></div>
                                  </div>
                                  <!-- /.slide -->
                               </div>
