@@ -99,9 +99,9 @@ h2:after {
 
 h5 {
   display: inline-block;
-  font-size: 24px;
-  margin-bottom: 35px;
-  margin-top: 10px;
+  font-size: 14px;
+  margin-bottom: 5px;
+  margin-top: 5px;
   position: relative;
 }
 
@@ -110,7 +110,7 @@ h3 {
 }
 
 h4 {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 html {
@@ -118,10 +118,12 @@ html {
 }
 
 p {
-  color: #767676;
+  color: #565656;
   line-height: 20px;
   margin-top: 0px;
 }
+
+
 
 ul {
   padding-left: 10px;
@@ -4434,6 +4436,24 @@ ul.topics-list li {
 ul.topics-list li:before {
   color:black; /* set color to red */
   content:"\2022"; /* /2022 is the numerical unicode for &bull; */
+  font-size:1.5em; /* set the font-size of the bullet if necessary. Make sure to use em or %*/
+  padding-right:.25em; /* give the bullet some padding from the text Make sure to use em*/
+  position:relative;
+  top:.1em; /* set the vertical position of the bullet if necessary. Make sure to use em or % */
+}
+
+ul.topics-type-list {
+  margin-left: 1.5em;
+}
+
+ul.topics-type-list li {
+  color:#656565; /* set color of list item to a dark gray */
+  list-style:decimal; /* if you’re not already using a reset */
+  padding: 0.2em;
+}
+
+ul.topics-type-list li:before {
+  color:black; /* set color to red */
   font-size:1.5em; /* set the font-size of the bullet if necessary. Make sure to use em or %*/
   padding-right:.25em; /* give the bullet some padding from the text Make sure to use em*/
   position:relative;
