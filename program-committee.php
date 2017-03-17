@@ -72,7 +72,7 @@
                                         <a href="#" class="has-child no-link">Organization</a>
                                         <ul class="list-unstyled child-navigation">
                                             <li><a href="organizing-committee.html">Organizing Committee</a></li>
-                                            <li><a href="program-committee.html">Program Committee</a></li>
+                                            <li><a href="program-committee.php">Program Committee</a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -131,42 +131,19 @@
                                             <header>
                                                 <h2 class="no-divider">Program committee</h2>
                                             </header>
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <div class="author-block course-speaker" style="padding:0; margin:0; border-bottom:none;">
-                                                        <article class="paragraph-wrapper" style="padding-left:0;">
-                                                            <div class="inner">
-                                                                <header><a target="_blank" href="http://www.cs.mcgill.ca/~kemme/">Bettina Kemme</a></header>
-                                                                <figure>McGill University</figure>
-                                                            </div>
-                                                        </article>
-                                                    </div>
-                                                    <!-- /.author -->
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="author-block course-speaker" style="padding:0; margin:0; border-bottom:none;">
-                                                        <article class="paragraph-wrapper" style="padding-left:0;">
-                                                            <div class="inner">
-                                                                <header><a href="mailto:">Peter Pietzuch</a></header>
-                                                                <figure>Imperial College London</figure>
-                                                            </div>
-                                                        </article>
-                                                    </div>
-                                                    <!-- /.author -->
-                                                </div>
-                                            </div>
                                             <?php
                                               $f = fopen("assets/mw_pc.csv", "r");
                                               $i=0;
-                                              while (($line = fgetcsv($f)) !== false) {
+                                              while ($i<52) {
+												$line=fgetcsv($f);
                                                 $i+=1;
                                                 if ($i%2==1){
                                                   echo "<div class=\"row\">";
                                                 }
                                                       echo " <div class=\"col-md-6\">\n<div class=\"author-block course-speaker\" style=\"padding:0; margin:0; border-bottom:none;\">\n ";
                                                       echo " <article class=\"paragraph-wrapper\" style=\"padding-left:0;\">\n<div class=\"inner\">\n ";
-                                                      echo "<header><a href=\"mailto:\">" . $line[0] . "</a></header>";
-                                                      echo "<figure>McGill University</figure>";
+                                                      echo "<header><a href=\"\">" . $line[0]." ". $line[1] . "</a></header>";
+                                                      echo "<figure>". $line[2] ."</figure>";
                                                       echo "</div></article></div></div>";
                                                 if ($i%2==0){
                                                   echo "</div>";
