@@ -165,7 +165,7 @@
                                                 }
                                                       echo " <div class=\"col-md-6\">\n<div class=\"author-block course-speaker\" style=\"padding:0; margin:0; border-bottom:none;\">\n ";
                                                       echo " <article class=\"paragraph-wrapper\" style=\"padding-left:0;\">\n<div class=\"inner\">\n ";
-                                                      echo "<header><a href=\"mailto:\">Peter Pietzuch</a></header>";
+                                                      echo "<header><a href=\"mailto:\">" . $line[0] . "</a></header>";
                                                       echo "<figure>McGill University</figure>";
                                                       echo "</div></article></div></div>";
                                                 if ($i%2==0){
