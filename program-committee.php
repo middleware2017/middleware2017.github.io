@@ -107,7 +107,9 @@
                                 <!-- /.col-md-9 -->
                                 <div class="col-md-3 col-sm-12">
                                     <header>
-                                        <h2>Program Committee</h2>
+					<h2>ACM/IFIP/USENIX Middleware 2017</h2>
+                              		<h3 style="color:white">Las Vegas, Nevada</h3>
+                               		<h3 style="color:white">Dec 11-15, 2017</h3>
                                     </header>
                                 </div>
                                 <!-- /.col-md-3 -->
