@@ -75,6 +75,15 @@
                                             <li><a href="program-committee.php">Program Committee</a></li>
                                         </ul>
                                     </li>
+
+			  <li>
+                                 <a href="#" class="has-child no-link">Calls</a>
+                                 <ul class="list-unstyled child-navigation">
+                                     <li><a href="call-for-workshop.html">Call for Workshop Proposals</a></li>
+                                     <li><a href="#">Call for Tutorial Proposals</a></li>
+                                 </ul>
+                           </li>
+
                                 </ul>
                             </nav>
                             <!-- /.navbar collapse-->
