@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <!-- /Added by HTTrack -->
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href="assets/css/font-awesome.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/selectize.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/vanillabox/vanillabox.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+        <script language="JavaScript1.2">
+            var howOften = 4; //number often in seconds to rotate
+            var current = 0; //start the counter at 0
+            var ns6 = document.getElementById&&!document.all; //detect netscape 6
+            // place your images, text, etc in the array elements here
+            var items = new Array();
+            items[0]="<img alt='Las Vegas in Winter!' src='assets/img/vegas1.jpg' height='400' width='710' border='0'/>"; 
+            items[1]="<img alt='Las Vegas in Winter!' src='assets/img/vegas2.jpg' height='400' width='710' border='0'/>"; 
+            items[2]="<img alt='Las Vegas in Winter!' src='assets/img/vegas3.jpg' height='400' width='710' border='0'/>"; 
+            items[3]="<img alt='Las Vegas in Winter!' src='assets/img/vegas4.jpg' height='400' width='710' border='0'/>"; 
+
+            function rotater() {
+                document.getElementById("rotating_pics").innerHTML = items[current];
+                current = (current==items.length-1) ? 0 : current + 1;
+                setTimeout("rotater()",howOften*1000);
+            }
+
+            function rotater() {
+                if(document.layers)
+                {
+                    document.placeholderlayer.document.write(items[current]);
+                    document.placeholderlayer.document.close();
+                }
+                if(ns6)document.getElementById("rotating_pics").innerHTML=items[current]
+                    if(document.all)
+                        placeholderdiv.innerHTML=items[current];
+                        current = (current==items.length-1) ? 0 : current + 1; //increment or reset
+                        setTimeout("rotater()",howOften*1000);
+            }
+            window.onload=rotater;
+//-->
+</script>
+
+
+
+
+        <title>2017 ACM/IFIP/USENIX International Middleware Conference</title>
+    </head>
+    <body class="page-sub-page page-microsite">
+        <!-- Wrapper -->
+        <div class="wrapper">
+            <!-- Header -->
+            <div class="navigation-wrapper">
+                <div class="primary-navigation-wrapper">
+                    <header class="navbar" id="top" role="banner">
+                        <div class="container">
+                            <div class="navbar-header">
+                                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <nav class="collapse navbar-collapse bs-navbar-collapse navbar-left" role="navigation">
+                                <ul class="nav navbar-nav">
+                                    <li class="active">
+                                        <a href="index.html">Home</a>
+                                    </li>
+<!--                                    <li>
+                                        <a href="#" class="has-child no-link">Participation</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="camera-ready-instructions.html">Camera-ready instructions</a></li>
+                                            <li><a href="poster-instructions.html">Poster instructions</a></li>
+                                            <li><a href="scholarships.html">Student scholarships</a></li>
+                                            <li><a href="papers.html">Call for papers</a></li>
+                                            <li><a href="posters.html">Call for posters</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="has-child no-link">Conference attendees</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="registration.html">Registration</a></li>
+                                            <li><a href="visa.html">Visa support letters</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="has-child no-link">Program</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="schedule.html">Schedule</a></li>
+                                            <li><a href="keynotes.html">Keynote Speakers</a></li>
+                                            <li><a href="poster-sessions.html">Poster Sessions</a></li>
+                                        </ul>
+                                    </li> -->
+                                    <li>
+                                        <a href="#" class="has-child no-link">Organization</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="organizing-committee.html">Organizing Committee</a></li>
+                                            <li><a href="program-committee.php">Program Committee</a></li>
+                                        </ul>
+                                    </li>
+					
+				   <li>
+                                        <a href="#" class="has-child no-link">Calls</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="call-for-regular-papers.html">Call for Regular Papers</a></li>
+                                            <li><a href="call-for-workshop.html">Call for Workshop Proposals</a></li>
+                                            <li><a href="#">Call for Tutorial Proposals</a></li>
+                                            <li><a href="call-for-industry-track-paper.html">Call for Industry Track Papers</a></li>
+                                        </ul>
+                                    </li>
+
+<!--                                    <li>
+                                        <a href="#" class="has-child no-link">Sponsorship</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="sponsors.html">Our sponsors</a></li>
+                                            <li><a href="becoming-sponsor.html">Becoming a sponsor</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="has-child no-link">Venue</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="location.html">Location</a></li>
+                                            <li><a href="accommodation.html">Accommodation</a></li>
+                                        </ul>
+                                    </li> -->
+                                </ul>
+                            </nav>
+                            <!-- /.navbar collapse-->
+                            <div class="social">
+<!--                                <div class="icons">
+                                </div> -->
+                                <!-- /.icons -->
+                            </div>
+                        </div>
+                        <!-- /.container -->
+                    </header>
+                    <!-- /.navbar -->
+                </div>
+                <!-- /.primary-navigation -->
+            </div>
+            <!-- end Header -->
+            <div id="page-content">
+                <!-- Slider -->
+                <div id="slider">
+                    <div class="container">
+                        <div class="slider-wrapper">
+                            <div class="row">
+                                <div class="col-md-9 col-sm-12">
+                                    <div class="row">
+                                        <div class="image-carousel">
+                                            <div class="slide">
+                                                <div class="image-carousel-slide" id="rotating_pics"></div>
+                                            </div>
+                                            <!-- /.slide -->
+                                        </div>
+                                        <!-- /.image-carousel -->
+                                    </div>
+                                    <!-- /.row -->
+                                </div>
+                                <!-- /.col-md-9 -->
+                                <div class="col-md-3 col-sm-12">
+                                    <header>
+                                        <h2>ACM/IFIP/USENIX Middleware 2017</h2>
+                                        <h3 style="color:white">Las Vegas, Nevada</h3>
+                                        <h3 style="color:white">Dec 11-15, 2017</h3>
+                                    </header>
+                                </div>
+                                <!-- /.col-md-3 -->
+                            </div>
+                            <!-- /.row -->
+                        </div>
+                        <!-- /.slider-wrapper -->
+                    </div>
+                    <!-- /.container -->
+                </div>
+                <!-- end Slider -->
+                <!-- Content -->
+                <div class="block">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <section id="main-content">
+                                    <div class="section-content">
+                                        <header>
+                                            <h3>Call for Papers (<a href="assets/mw17_poster.pdf" target="_blank">PDF</a>):</h3>
+                                        </header>
+                                        <p>
+                                            The annual ACM/IFIP/USENIX Middleware conference is a major forum for the discussion of innovations and recent
+                                            scientific advances of middleware systems with a focus on the design, implementation, deployment, and evaluation of
+                                            distributed systems, platforms and architectures for computing, storage, and communication. Highlights of the conference
+                                            will include a high quality singletrack
+                                            technical program, invited speakers, an industrial track, panel discussions involving
+                                            academic and industry leaders, poster and demonstration presentations, a doctoral symposium, tutorials and workshops.
+                                        </p>
+
+                                        <table width="70%">
+                                        <header><h3>Important Dates</h3></header>
+                                            <tr>
+                                                <td>Abstract Submission</td>
+                                                <td>May 12, 2017</td> 
+                                            </tr>
+                                            <tr>
+                                                <td>Paper Submission</td>
+                                                <td>May 19, 2017</td> 
+                                            </tr>
+                                            <tr>
+                                                <td>Notification Due</td>
+                                                <td>Aug 23, 2017</td> 
+                                            </tr>
+                                            <tr>
+                                                <td>Final Version Due</td>
+                                                <td>Sep 15, 2017</td> 
+                                            </tr>
+                                        </table>
+                                        <br>
+                                        <p> Please contact the <a href="mailto:mw17-pc-chairs@imperial.ac.uk" target="_top">TPC chairs</a> in case of any questions related to the call for papers.</p>
+                                        <header>
+                                        <h3>Topics:</h3>
+                                        </header>
+                                        <p>
+                                            Original submissions of research papers on a diversity of topics are sought, particularly those identifying new
+                                            research directions. The topics of the conference include, but are not limited to:
+                                        </p>
+
+                                        <h5>Platforms and Usage Models:</h5>
+                                        <ul class="topics-list">
+                                        <li>Cloud computing and data centres</li>
+                                        <li>Data-intensive computing (big data) and data analytics</li>
+                                        <li>Mobile devices and services</li>
+                                        <li>Ubiquitous and pervasive computing</li>
+                                        <li>Networking, network function virtualization, software-defined networking</li>
+                                        <li>Internet applications and multimedia</li>
+                                        <li>Internet-of-Things, cyber-physical systems, smart cities</li>
+                                        </ul>
+
+                                        <h5>Systems and Engineering Issues:</h5>
+                                        <ul class="topics-list">
+                                        <li>Scalability and performance</li>
+                                        <li>Reliability and fault tolerance</li>
+                                        <li>Consistency, availability, and replication</li>
+                                        <li>Security and privacy</li>
+                                        <li>Virtualization, auto-scaling, provisioning, and scheduling</li>
+                                        <li>Real-time solutions and quality-of-service</li>
+                                        <li>Energy- and power-aware techniques</li>
+                                        </ul>
+
+                                        <h5>Design Principles and Programming Support:</h5>
+                                        <ul class="topics-list">
+                                        <li>Programming abstractions and paradigms for middleware</li>
+                                        <li>Methodologies and tools for the design, implementation, verification, and evaluation</li>
+                                        <li>Event-based, publish/subscribe, and peer-to-peer solutions</li>
+                                        <li>Reconfigurable, adaptable, and reflective approaches</li>
+                                        <li>Reviews of middleware paradigms, e.g., object models, aspect orientation, etc.</li>
+                                        </ul>
+                                        <!--<div class="row">
+                                            <div class="col-md-6">
+                                            <a href="papers.html" rel="nofollow"><h3>[Call for papers]</h3>
+                                            </div>
+                                            <div class="col-md-6">
+                                            <a href="posters.html" rel="nofollow"><h3>[Call for posters]</h3></a>
+                                            </div>
+                                            </div>
+                                            <a href="becoming-sponsor.html" rel="nofollow"><h5>Sponsorship opportunities</h5></a><br> -->
+                                        <br/>
+                                        <header>Original papers of three types are sought:</header>
+
+                                        <ul class="topics-type-list">
+                                        <li> <em>Research Papers:</em> These papers report original research on the above topics.</li>
+
+                                        <li><em>Experimentation and Deployment Papers:</em> These papers describe complete systems, platforms, and/or comprehensive experimental evaluations of alternative designs and solutions to well-known problems. The emphasis during the evaluation of these papers will be less on the novelty and more on the demonstrated usefulness and potential impact of the contributions, the extensive experimentation involved, and the quality and weight of the lessons learned.</li>
+
+                                        <li><em>Big Ideas Papers:</em> These are papers that have the potential for opening up new research directions. For such papers, the potential to motivate new research is more important than full experimental evaluation, though some preliminary evidence of the effectiveness of the approach or idea is important.</li>
+                                        </ul>
+                                        <p>
+                                            Submitted papers must have at most <strong>12 pages</strong> of technical content, including text, figures, and appendices, but excluding
+                                            any number of additional pages for bibliographic references. Note that submissions must be <strong>double-blind</strong>: authors' names
+                                            must not appear, and authors must make a good faith attempt to anonymize their submissions. Submitted papers must
+                                            adhere to the formatting instructions of the ACM style, which can found on the submission page, and should clearly indicate
+                                            the paper type on the first page. The Middleware 2017 conference proceedings will be published in the ACM Digital Library.
+                                            The official publication date will be the date the proceedings are made available in the ACM Digital Library which may be up
+                                            to two weeks prior to the first day of the Middleware conference. Note that the official publication date affects the deadline
+                                            for any patent filings related to published work.
+                                        </p>
+                                        <br>
+
+                                        <table width="70%">
+                                        <header><h3>Program Chairs</h3></header>
+                                            <tr>
+                                                <td>Bettina Kemme</td>
+                                                <td>McGill University</td> 
+                                            </tr>
+                                            <tr>
+                                                <td>Peter Pietzuch</td>
+                                                <td>Imperial College London</td> 
+                                            </tr>
+                                           
+                    
+                                        </table>
+
+                                    </div>
+                                    <!-- /.section-content -->
+                                </section>
+                                <!-- /.main-content -->
+                            </div>
+                            <!-- /.col-md-6 -->
+                            
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!-- /.container -->
+                </div>
+                <!-- end Content -->
+            </div>
+            <!-- Footer -->
+            <footer id="page-footer">
+                <section id="footer-top">
+                    <div class="container">
+                        <div class="footer-inner">
+<!--                            <div class="footer-social">
+                                <figure>Follow us:</figure>
+                                <div class="icons">
+                                </div> 
+                            </div> -->
+                            <!-- /.social -->
+                        </div>
+                        <!-- /.footer-inner -->
+                    </div>
+                    <!-- /.container -->
+                </section>
+                <!-- /#footer-top -->
+                <section id="footer-bottom">
+                    <div class="container">
+                        <div class="footer-inner">
+                            <div class="copyright"></div>
+                            <!-- /.copyright -->
+                        </div>
+                        <!-- /.footer-inner -->
+                    </div>
+                    <!-- /.container -->
+                </section>
+                <!-- /#footer-bottom -->
+            </footer>
+            <!-- end Footer -->
+        </div>
+    </body>
+    <script type="text/javascript" src="assets/js/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/selectize.min.js"></script>
+    <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.placeholder.js"></script>
+    <script type="text/javascript" src="assets/js/jQuery.equalHeights.js"></script>
+    <script type="text/javascript" src="assets/js/icheck.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.vanillabox-0.1.5.min.js"></script>
+    <script type="text/javascript" src="assets/js/retina-1.1.0.min.js"></script>
+    <script type="text/javascript" src="assets/js/custom.js"></script>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<!--    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','../../www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-39874729-4', 'auto');
+        ga('send', 'pageview');
+    </script> -->
+
+</html>
