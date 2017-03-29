@@ -85,6 +85,13 @@
                                      <li><a href="call-for-industry-track-paper.html">Call for Industry Track Papers</a></li>
                                  </ul>
                            </li>
+                                    <li>
+                                        <a href="#" class="has-child no-link">Venue</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="about-lv.html">About Las Vegas</a></li>
+                                            <li><a href="travel.html">Travel</a></li>
+                                        </ul>
+                                    </li> 
 
                                 </ul>
                             </nav>
