@@ -50,13 +50,13 @@
 
 		<script>
      			function initMap() {
-			var lasVegas = {lat: 36.114, lng: -115.172};
+			var lasVegasA = {lat: 36.086010, lng: -115.153969};
 			var map = new google.maps.Map(document.getElementById('map'), {
-		  		zoom: 8,
-		  		center: lasVegas
+		  		zoom: 12,
+		  		center: lasVegasA
 	       		});
 			var marker = new google.maps.Marker({
-		  		position: lasVegas,
+		  		position: lasVegasA,
 		 		map: map
 			});
       			}
@@ -125,6 +125,7 @@
 				   <li>
                                         <a href="#" class="has-child no-link">Calls</a>
                                         <ul class="list-unstyled child-navigation">
+                                            <li><a href="call-for-regular-papers.html">Call for Regular Papers</a></li>
                                             <li><a href="call-for-workshop.html">Call for Workshop Proposals</a></li>
                                             <li><a href="#">Call for Tutorial Proposals</a></li>
                                             <li><a href="call-for-industry-track-paper.html">Call for Industry Track Papers</a></li>
@@ -204,9 +205,16 @@
                                 <section id="main-content">
                                     <div class="section-content">
                                         
-					<div id="map"></div>
-					
+                                        <header><h3>How to reach Las Vegas</h3></header>
+                                        <p> McCarran International Airport is the primary commercial airport of Las Vegas. The</p>
+                                        <p> </p>
 
+                                            <div id="map"></div>
+					                    
+                                        <header><h3>Conference Location </h3></header>
+                                            <p> The 2017 ACM/IFIP/USENIX Middleware conference will be held at the ?. </p>
+
+                                        <header><h3>Getting to the Conference</h3></header>
 
                                     </div>
                                     <!-- /.section-content -->
