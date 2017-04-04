@@ -85,6 +85,13 @@
                                      <li><a href="call-for-industry-track-paper.html">Call for Industry Track Papers</a></li>
                                  </ul>
                            </li>
+                                    <li>
+                                        <a href="#" class="has-child no-link">Venue</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="about-lv.html">About Las Vegas</a></li>
+                                            <li><a href="#">Travel</a></li>
+                                        </ul>
+                                    </li> 
 
                                 </ul>
                             </nav>
@@ -147,7 +154,7 @@
                                             <?php
                                               $f = fopen("assets/mw_pc.csv", "r");
                                               $i=0;
-                                              while ($i<52) {
+                                              while ($i<53) {
 												$line=fgetcsv($f);
                                                 $i+=1;
                                                 if ($i%2==1){

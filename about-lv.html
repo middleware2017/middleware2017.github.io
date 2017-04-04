@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <!-- /Added by HTTrack -->
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href="assets/css/font-awesome.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/selectize.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/vanillabox/vanillabox.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+        <script language="JavaScript1.2">
+            var howOften = 4; //number often in seconds to rotate
+            var current = 0; //start the counter at 0
+            var ns6 = document.getElementById&&!document.all; //detect netscape 6
+            // place your images, text, etc in the array elements here
+            var items = new Array();
+            items[0]="<img alt='Las Vegas in Winter!' src='assets/img/vegas1.jpg' height='400' width='710' border='0'/>"; 
+            items[1]="<img alt='Las Vegas in Winter!' src='assets/img/vegas2.jpg' height='400' width='710' border='0'/>"; 
+            items[2]="<img alt='Las Vegas in Winter!' src='assets/img/vegas3.jpg' height='400' width='710' border='0'/>"; 
+            items[3]="<img alt='Las Vegas in Winter!' src='assets/img/vegas4.jpg' height='400' width='710' border='0'/>"; 
+
+            function rotater() {
+                document.getElementById("rotating_pics").innerHTML = items[current];
+                current = (current==items.length-1) ? 0 : current + 1;
+                setTimeout("rotater()",howOften*1000);
+            }
+
+            function rotater() {
+                if(document.layers)
+                {
+                    document.placeholderlayer.document.write(items[current]);
+                    document.placeholderlayer.document.close();
+                }
+                if(ns6)document.getElementById("rotating_pics").innerHTML=items[current]
+                    if(document.all)
+                        placeholderdiv.innerHTML=items[current];
+                        current = (current==items.length-1) ? 0 : current + 1; //increment or reset
+                        setTimeout("rotater()",howOften*1000);
+            }
+            window.onload=rotater;
+//-->
+</script>
+<script>
+                function initMap() {
+            var lasVegasA = {lat: 36.107043, lng: -115.1423749};
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 12,
+                center: lasVegasA
+                });
+            var marker = new google.maps.Marker({
+                position: lasVegasA,
+                map: map
+            });
+                }
+            </script>
+        <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyApgVc-YxPNBdYfYg8mkYyCHG-KUUeWT2s&callback=initMap">
+            </script>
+
+
+
+        <title>2017 ACM/IFIP/USENIX International Middleware Conference</title>
+    </head>
+    <body class="page-sub-page page-microsite">
+        <!-- Wrapper -->
+        <div class="wrapper">
+            <!-- Header -->
+            <div class="navigation-wrapper">
+                <div class="primary-navigation-wrapper">
+                    <header class="navbar" id="top" role="banner">
+                        <div class="container">
+                            <div class="navbar-header">
+                                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <nav class="collapse navbar-collapse bs-navbar-collapse navbar-left" role="navigation">
+                                <ul class="nav navbar-nav">
+                                    <li class="active">
+                                        <a href="index.html">Home</a>
+                                    </li>
+<!--                                    <li>
+                                        <a href="#" class="has-child no-link">Participation</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="camera-ready-instructions.html">Camera-ready instructions</a></li>
+                                            <li><a href="poster-instructions.html">Poster instructions</a></li>
+                                            <li><a href="scholarships.html">Student scholarships</a></li>
+                                            <li><a href="papers.html">Call for papers</a></li>
+                                            <li><a href="posters.html">Call for posters</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="has-child no-link">Conference attendees</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="registration.html">Registration</a></li>
+                                            <li><a href="visa.html">Visa support letters</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="has-child no-link">Program</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="schedule.html">Schedule</a></li>
+                                            <li><a href="keynotes.html">Keynote Speakers</a></li>
+                                            <li><a href="poster-sessions.html">Poster Sessions</a></li>
+                                        </ul>
+                                    </li> -->
+                                    <li>
+                                        <a href="#" class="has-child no-link">Organization</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="organizing-committee.html">Organizing Committee</a></li>
+                                            <li><a href="program-committee.php">Program Committee</a></li>
+                                        </ul>
+                                    </li>
+					
+				   <li>
+                                        <a href="#" class="has-child no-link">Calls</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="call-for-regular-papers.html">Call for Regular Papers</a></li>
+                                            <li><a href="call-for-workshop.html">Call for Workshop Proposals</a></li>
+                                            <li><a href="#">Call for Tutorial Proposals</a></li>
+                                            <li><a href="call-for-industry-track-paper.html">Call for Industry Track Papers</a></li>
+                                        </ul>
+                                    </li>
+
+<!--                                    <li>
+                                        <a href="#" class="has-child no-link">Sponsorship</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="sponsors.html">Our sponsors</a></li>
+                                            <li><a href="becoming-sponsor.html">Becoming a sponsor</a></li>
+                                        </ul>
+                                    </li>-->
+                                    <li>
+                                        <a href="#" class="has-child no-link">Venue</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="about-lv.html">About Las Vegas</a></li>
+                                            <li><a href="#">Travel</a></li>
+                                        </ul>
+                                    </li> 
+
+                                </ul>
+                            </nav>
+                            <!-- /.navbar collapse-->
+                            <div class="social">
+<!--                                <div class="icons">
+                                </div> -->
+                                <!-- /.icons -->
+                            </div>
+                        </div>
+                        <!-- /.container -->
+                    </header>
+                    <!-- /.navbar -->
+                </div>
+                <!-- /.primary-navigation -->
+            </div>
+            <!-- end Header -->
+            <div id="page-content">
+                <!-- Slider -->
+                <div id="slider">
+                    <div class="container">
+                        <div class="slider-wrapper">
+                            <div class="row">
+                                <div class="col-md-9 col-sm-12">
+                                    <div class="row">
+                                        <div class="image-carousel">
+                                            <div class="slide">
+                                                <div class="image-carousel-slide" id="rotating_pics"></div>
+                                            </div>
+                                            <!-- /.slide -->
+                                        </div>
+                                        <!-- /.image-carousel -->
+                                    </div>
+                                    <!-- /.row -->
+                                </div>
+                                <!-- /.col-md-9 -->
+                                <div class="col-md-3 col-sm-12">
+                                    <header>
+                                        <h2>ACM/IFIP/USENIX Middleware 2017</h2>
+                                        <h3 style="color:white">Las Vegas, Nevada</h3>
+                                        <h3 style="color:white">Dec 11-15, 2017</h3>
+                                    </header>
+                                </div>
+                                <!-- /.col-md-3 -->
+                            </div>
+                            <!-- /.row -->
+                        </div>
+                        <!-- /.slider-wrapper -->
+                    </div>
+                    <!-- /.container -->
+                </div>
+                <!-- end Slider -->
+                <!-- Content -->
+                <div class="block">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <section id="main-content">
+                                    <div class="section-content">
+                                        <header>
+                                            <h3>Las Vegas</h3>
+                                        </header>
+                                        <p>
+                                            The conference location is Las Vegas, often simply known as Vegas, and it is a famous and the largest city within the greater Mojave Desert, state of Nevada, USA. The city is an internationally renowned major resort city known primarily for its gambling, entertainment and nightlife. It is one of the top destinations for business conventions and tourism, often called the Entertainment Capital of the World.
+                                            Weather during December is cool (rarely cold) and cloudy, temperature ranging from 3 to 14&#8451; (38-57 &#8457;).
+                                        </p>
+                                        <div id="map"></div>
+                                        <header><h3>What to visit in Las Vegas </h3></header>
+
+                                        <br>
+                                        <p> Apart from the major casinos, clubs and resorts along the Las Vegas Strip, the following places may be of interest to the conference attendees:
+
+                                            <ol>
+                                              <li><a href="https://www.unlv.edu/barrickmuseum" target="_blank">Marjorie Barrick Museum of Art </a> on UNLV campus</li>
+                                              <li><a href="http://www.sharkreef.com/visitor/prices.aspx" target="_blank">Shark Reef Aquarium at Mandalay Bay</a> about 10 minutes car ride</li>
+                                              <li><a href="https://www.circuscircus.com/en/adventuredome.html" target="_blank">Adventuredome Theme Park</a> about 12 minutes car ride</li>
+                                              <li><a href="http://www.neonmuseum.org/" target="_blank">Neon Museum</a> about 16 minutes car ride</li>
+                                              <li><a href="https://www.blm.gov/nv/st/en/fo/lvfo/blm_programs/blm_special_areas/red_rock_nca.html" target="_blank">Red Rock Canyon</a> about 30 minutes car ride</li>
+                                            </ol>                                            
+                                            
+                                            The following is a map of the major landmarks along the Las Vegas Strip obtained from <a href="https://en.wikipedia.org/wiki/Las_Vegas_Strip" target="_blank">Wikipedia</a>.
+                                            <br><br>
+                                            <table style="margin:auto;">
+                                                <tbody><tr>
+                                                <td colspan="3" style="text-align:center;">North towards <a href="/wiki/Fremont_Street" title="Fremont Street">Fremont Street</a>
+                                                <p><b>↑</b></p>
+                                                </td>
+                                                </tr>
+                                                <tr>
+                                                <td style="text-align:right;"><a href="/wiki/Stratosphere_Las_Vegas" title="Stratosphere Las Vegas">Stratosphere</a></td>
+                                                <td style="background:silver; width:28px;" rowspan="34"></td>
+                                                </tr>
+                                                <tr>
+                                                <td style="text-align:right;"><a href="/wiki/Aztec_Inn" title="Aztec Inn">Aztec Inn</a></td>
+                                                </tr>
+                                                <tr>
+                                                <td style="text-align:right;"><a href="/wiki/Allure_Las_Vegas" title="Allure Las Vegas">Allure</a>, <a href="/wiki/Bonanza_Gift_Shop" title="Bonanza Gift Shop">Bonanza Gift Shop</a></td>
+                                                </tr>
+                                                <tr style="background:silver;">
+                                                <td style="width:200px;"><i>Sahara Avenue</i></td>
+                                                <td style="width:200px; text-align:right;"><i>Sahara Avenue</i></td>
+                                                </tr>
+                                                <tr>
+                                                <td style="text-align:right;"><a href="/wiki/Las_Vegas_Festival_Grounds" title="Las Vegas Festival Grounds">Festival Grounds</a></td>
+                                                <td><a href="/wiki/SLS_Las_Vegas" title="SLS Las Vegas">SLS</a></td>
+                                                </tr>
+                                                <tr>
+                                                <td style="text-align:right;"><a href="/wiki/Hilton_Grand_Vacations_Club" title="Hilton Grand Vacations Club">Hilton Grand Vacations Club</a></td>
+                                                <td><a href="/wiki/All_Net_Resort_and_Arena" title="All Net Resort and Arena">All Net Resort and Arena</a> <small>(construction)</small></td>
+                                                </tr>
+                                                <tr>
+                                                <td style="text-align:right;"><a href="/wiki/Sky_Las_Vegas" title="Sky Las Vegas">Sky</a></td>
+                                                <td></td>
+                                                </tr>
+                                                <tr>
+                                                <td style="text-align:right;"><a href="/wiki/Circus_Circus_Las_Vegas" title="Circus Circus Las Vegas">Circus Circus</a></td>
+                                                <td><a href="/wiki/Fontainebleau_Resort_Las_Vegas" title="Fontainebleau Resort Las Vegas">Fontainebleau</a> <small>(on hold)</small>, <a href="/wiki/Turnberry_Place" title="Turnberry Place">Turnberry</a></td>
+                                                </tr>
+                                                <tr>
+                                                <td style="text-align:right;"><a href="/wiki/Slots-A-Fun_Casino" title="Slots-A-Fun Casino">Slots-A-Fun</a></td>
+                                                <td><a href="/wiki/Las_Vegas_Global_Business_District" class="mw-redirect" title="Las Vegas Global Business District">Global Business District</a> <small>(construction)</small></td>
+                                                </tr>
+                                                <tr>
+                                                <td style="text-align:right;"><a href="/wiki/Resorts_World_Las_Vegas" title="Resorts World Las Vegas">Resorts World</a> <small>(construction)</small></td>
+                                                <td></td>
+                                                </tr>
+                                                <tr style="background:silver;">
+                                                <td><i>Desert Inn Road</i></td>
+                                                <td style="text-align:right;"><i>Desert Inn Road</i></td>
+                                                </tr>
+                                                <tr>
+                                                <td style="text-align:right;"><a href="/wiki/Trump_Hotel_Las_Vegas" class="mw-redirect" title="Trump Hotel Las Vegas">Trump</a>, <a href="/wiki/Alon_Las_Vegas" title="Alon Las Vegas">Alon</a> <small>(construction)</small></td>
+                                                <td><a href="/wiki/Encore_Las_Vegas" title="Encore Las Vegas">Encore</a></td>
+                                                </tr>
+                                                <tr>
+                                                <td style="text-align:right;"><a href="/wiki/Fashion_Show_Mall" title="Fashion Show Mall">Fashion Show Mall</a></td>
+                                                <td><a href="/wiki/Wynn_Las_Vegas" title="Wynn Las Vegas">Wynn</a></td>
+                                                </tr>
+                                                <tr style="background:silver;">
+                                                <td><i>Spring Mountain Road</i></td>
+                                                <td style="text-align:right;"><i>Sands Avenue</i></td>
+                                                </tr>
+                                                <tr>
+                                                <td style="text-align:right;"><a href="/wiki/Treasure_Island_Hotel_and_Casino" title="Treasure Island Hotel and Casino">Treasure Island</a></td>
+                                                <td><a href="/wiki/The_Palazzo" title="The Palazzo">Palazzo</a>, <a href="/wiki/Sands_Expo" title="Sands Expo">Sands Expo</a></td>
+                                                </tr>
+                                                <tr>
+                                                <td></td>
+                                                <td><a href="/wiki/The_Venetian_Las_Vegas" title="The Venetian Las Vegas">Venetian</a></td>
+                                                </tr>
+                                                <tr>
+                                                <td style="text-align:right;"><a href="/wiki/The_Mirage" title="The Mirage">Mirage</a></td>
+                                                <td><a href="/wiki/Casino_Royale_Hotel_%26_Casino" title="Casino Royale Hotel &amp; Casino">Casino Royale</a></td>
+                                                </tr>
+                                                <tr>
+                                                <td></td>
+                                                <td><a href="/wiki/Harrah%27s_Las_Vegas" title="Harrah's Las Vegas">Harrah's</a></td>
+                                                </tr>
+                                                <tr>
+                                                <td></td>
+                                                <td><a href="/wiki/The_Linq" title="The Linq">Linq</a>, <a href="/wiki/High_Roller_(Ferris_wheel)" title="High Roller (Ferris wheel)">High Roller</a></td>
+                                                </tr>
+                                                <tr>
+                                                <td></td>
+                                                <td><a href="/wiki/Flamingo_Las_Vegas" title="Flamingo Las Vegas">Flamingo</a></td>
+                                                </tr>
+                                                <tr>
+                                                <td style="text-align:right;"><a href="/wiki/Caesars_Palace" title="Caesars Palace">Caesars Palace</a></td>
+                                                <td><a href="/wiki/The_Cromwell_Las_Vegas" title="The Cromwell Las Vegas">Cromwell</a>, <a href="/wiki/Westin_Las_Vegas" title="Westin Las Vegas">Westin</a></td>
+                                                </tr>
+                                                <tr style="background:silver;">
+                                                <td><i>Flamingo Road</i></td>
+                                                <td style="text-align:right;"><i>Flamingo Road</i></td>
+                                                </tr>
+                                                <tr>
+                                                <td style="text-align:right;"><a href="/wiki/Bellagio_(resort)" title="Bellagio (resort)">Bellagio</a></td>
+                                                <td><a href="/wiki/Bally%27s_Las_Vegas" title="Bally's Las Vegas">Bally's</a></td>
+                                                </tr>
+                                                <tr>
+                                                <td></td>
+                                                <td><a href="/wiki/Paris_Las_Vegas" title="Paris Las Vegas">Paris</a></td>
+                                                </tr>
+                                                <tr>
+                                                <td style="text-align:right;"><a href="/wiki/Cosmopolitan_of_Las_Vegas" title="Cosmopolitan of Las Vegas">Cosmopolitan</a></td>
+                                                <td><a href="/wiki/Planet_Hollywood_Resort_%26_Casino" title="Planet Hollywood Resort &amp; Casino">Planet Hollywood</a></td>
+                                                </tr>
+                                                <tr style="background:silver;">
+                                                <td><i>Harmon Avenue</i></td>
+                                                <td style="text-align:right;"><i>Harmon Avenue</i></td>
+                                                </tr>
+                                                <tr>
+                                                <td style="text-align:right;"><a href="/wiki/CityCenter" title="CityCenter">CityCenter</a> (<a href="/wiki/Aria_Resort_and_Casino" title="Aria Resort and Casino">Aria</a>, <a href="/wiki/Vdara" title="Vdara">Vdara</a>, <a href="/wiki/Mandarin_Oriental,_Las_Vegas" title="Mandarin Oriental, Las Vegas">Mandarin Oriental</a>)</td>
+                                                <td><a href="/wiki/Marriott%27s_Grand_Chateau" title="Marriott's Grand Chateau">Grand Chateau</a>, <a href="/wiki/The_Signature_at_MGM_Grand" title="The Signature at MGM Grand">Signature</a></td>
+                                                </tr>
+                                                <tr>
+                                                <td style="text-align:right;"><a href="/wiki/Monte_Carlo_Resort_and_Casino" title="Monte Carlo Resort and Casino">Monte Carlo</a></td>
+                                                <td><a href="/wiki/Showcase_Mall" title="Showcase Mall">Showcase Mall</a></td>
+                                                </tr>
+                                                <tr>
+                                                <td style="text-align:right;"><a href="/wiki/T-Mobile_Arena" title="T-Mobile Arena">T-Mobile Arena</a>, <a href="/wiki/New_York-New_York_Hotel_and_Casino" title="New York-New York Hotel and Casino">New York-New York</a></td>
+                                                <td><a href="/wiki/MGM_Grand_Las_Vegas" title="MGM Grand Las Vegas">MGM Grand</a></td>
+                                                </tr>
+                                                <tr style="background:silver;">
+                                                <td><i>Tropicana Avenue</i></td>
+                                                <td style="text-align:right;"><i>Tropicana Avenue</i></td>
+                                                </tr>
+                                                <tr>
+                                                <td style="text-align:right;"><a href="/wiki/Excalibur_Hotel_and_Casino" title="Excalibur Hotel and Casino">Excalibur</a></td>
+                                                <td><a href="/wiki/Tropicana_Las_Vegas" title="Tropicana Las Vegas">Tropicana</a>, <a href="/wiki/Hooters_Casino_Hotel" title="Hooters Casino Hotel">Hooters</a></td>
+                                                </tr>
+                                                <tr>
+                                                <td style="text-align:right;"><a href="/wiki/Luxor_Las_Vegas" title="Luxor Las Vegas">Luxor</a></td>
+                                                <td></td>
+                                                </tr>
+                                                <tr>
+                                                <td style="text-align:right;"><a href="/wiki/Delano_Las_Vegas_Hotel" class="mw-redirect" title="Delano Las Vegas Hotel">Delano</a>, <a href="/wiki/Mandalay_Bay" title="Mandalay Bay">Mandalay Bay</a></td>
+                                                <td><a href="/wiki/Skyvue" title="Skyvue">Skyvue</a> <small>(abandoned)</small></td>
+                                                </tr>
+                                                <tr>
+                                                <td style="background:silver; text-align:left;"><i>Russell Road</i></td>
+                                                </tr>
+                                                <tr>
+                                                <td colspan="3" style="text-align:center;"><b>↓</b>
+                                                <p><a href="/wiki/Welcome_to_Fabulous_Las_Vegas_sign" title="Welcome to Fabulous Las Vegas sign">Welcome to Fabulous Las Vegas sign</a></p>
+                                                <p>South towards <a href="/wiki/Interstate_215_(Nevada)" class="mw-redirect" title="Interstate 215 (Nevada)">Interstate 215</a> <img alt="I-215.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b7/I-215.svg/25px-I-215.svg.png" width="25" height="20" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b7/I-215.svg/38px-I-215.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b7/I-215.svg/50px-I-215.svg.png 2x" data-file-width="751" data-file-height="601"></p>
+                                                </td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+
+                                            <br>
+                                            <figure>
+                                                <img style='height: 100%; width: 100%; object-fit: contain' src='assets/img/vegas_strip.jpg' alt='missing' />
+                                                <figcaption style="width: 100%; text-align: center">Southern half of Las Vegas Strip at night with CityCenter construction on the bottom right, 2007. Image courtesy <a href="https://commons.wikimedia.org/wiki/File:Las_Vegas_Strip_panorama.jpg" target="_blank"> Wikepedia </a>.</figcaption>
+                                            </figure>
+                                            <br>
+
+                                            For further information, you can contact Las Vegas Information Center ( 3150 Paradise Rd, Las Vegas, NV 89109, Phone: (877) 847-4858).
+                                        </p>
+                                        
+                                        <br>
+                                    </div>
+                                    <!-- /.section-content -->
+                                </section>
+                                <!-- /.main-content -->
+                            </div>
+                            <!-- /.col-md-6 -->
+                            
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!-- /.container -->
+                </div>
+                <!-- end Content -->
+            </div>
+            <!-- Footer -->
+            <footer id="page-footer">
+                <section id="footer-top">
+                    <div class="container">
+                        <div class="footer-inner">
+<!--                            <div class="footer-social">
+                                <figure>Follow us:</figure>
+                                <div class="icons">
+                                </div> 
+                            </div> -->
+                            <!-- /.social -->
+                        </div>
+                        <!-- /.footer-inner -->
+                    </div>
+                    <!-- /.container -->
+                </section>
+                <!-- /#footer-top -->
+                <section id="footer-bottom">
+                    <div class="container">
+                        <div class="footer-inner">
+                            <div class="copyright"></div>
+                            <!-- /.copyright -->
+                        </div>
+                        <!-- /.footer-inner -->
+                    </div>
+                    <!-- /.container -->
+                </section>
+                <!-- /#footer-bottom -->
+            </footer>
+            <!-- end Footer -->
+        </div>
+    </body>
+    <script type="text/javascript" src="assets/js/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/selectize.min.js"></script>
+    <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.placeholder.js"></script>
+    <script type="text/javascript" src="assets/js/jQuery.equalHeights.js"></script>
+    <script type="text/javascript" src="assets/js/icheck.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.vanillabox-0.1.5.min.js"></script>
+    <script type="text/javascript" src="assets/js/retina-1.1.0.min.js"></script>
+    <script type="text/javascript" src="assets/js/custom.js"></script>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<!--    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','../../www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-39874729-4', 'auto');
+        ga('send', 'pageview');
+    </script> -->
+
+</html>
