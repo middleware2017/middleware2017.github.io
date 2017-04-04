@@ -154,7 +154,7 @@
                                             <?php
                                               $f = fopen("assets/mw_pc.csv", "r");
                                               $i=0;
-                                              while ($i<52) {
+                                              while ($i<53) {
 												$line=fgetcsv($f);
                                                 $i+=1;
                                                 if ($i%2==1){
