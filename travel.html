@@ -51,19 +51,38 @@
 		<script>
      			function initMap() {
 			var lasVegasA = {lat: 36.086010, lng: -115.153969};
+
 			var map = new google.maps.Map(document.getElementById('map'), {
 		  		zoom: 12,
 		  		center: lasVegasA
 	       		});
+
 			var marker = new google.maps.Marker({
 		  		position: lasVegasA,
 		 		map: map
 			});
+
+
+            var studentUnion= {lat: 36.105951, lng: -115.138427};
+
+                var map2 = new google.maps.Map(document.getElementById('map_su'), {
+                  zoom: 16,
+                  center: studentUnion
+                  });
+                var marker = new google.maps.Marker({
+                  position: studentUnion,
+                  map: map2
+                });
+
       			}
     		</script>
-		<script async defer
+		    <script async defer
     			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyApgVc-YxPNBdYfYg8mkYyCHG-KUUeWT2s&callback=initMap">
     		</script>
+
+
+            
+
 
 
         <title>2017 ACM/IFIP/USENIX International Middleware Conference</title>
@@ -206,13 +225,23 @@
                                     <div class="section-content">
                                         
                                         <header><h3>How to reach Las Vegas</h3></header>
-                                        <p> McCarran International Airport is the primary commercial airport of Las Vegas. The</p>
+
+                                         <header><h4>By Plane</h4></header>
+
+                                        <p>The closest airport to the venue is McCarran International Airport (LAS), which is the main airport in the region. There are direct flights from most international cities to LAS. Further, most hotels in the area have airport shuttles connecting LAS to/from the hotels.
+</p>
                                         <p> </p>
 
                                             <div id="map"></div>
 					                    
+                                        <header><h4>By Car</h4></header>
+
+
                                         <header><h3>Conference Location </h3></header>
-                                            <p> The 2017 ACM/IFIP/USENIX Middleware conference will be held at the ?. </p>
+                                            <p>The 2017 ACM/IFIP/USENIX Middleware conference will be held at the University of Nevada, Las Vegas (UNLV). All events will be in the Student Union at UNLV.</p>
+
+                                            <div id="map_su"></div>
+
 
                                         <header><h3>Getting to the Conference</h3></header>
 
