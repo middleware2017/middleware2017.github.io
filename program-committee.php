@@ -81,7 +81,7 @@
                                  <ul class="list-unstyled child-navigation">
                                      <li><a href="call-for-regular-papers.html">Call for Regular Papers</a></li>
                                      <li><a href="call-for-workshop.html">Call for Workshop Proposals</a></li>
-                                     <li><a href="#">Call for Tutorial Proposals</a></li>
+                                     <li><a href="call-for-tutorial.html">Call for Tutorial Proposals</a></li>
                                      <li><a href="call-for-industry-track-paper.html">Call for Industry Track Papers</a></li>
                                  </ul>
                            </li>

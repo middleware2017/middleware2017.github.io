@@ -3,6 +3,12 @@
         width: 100%;
 }
 
+#map_su {
+        height: 400px;
+        width: 100%;
+}
+
+
 
 a {
   -moz-transition: 0.3s;
