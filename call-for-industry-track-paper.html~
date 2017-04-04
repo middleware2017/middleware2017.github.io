@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
+    <!-- Mirrored from acmsocc.github.io/2016/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 29 Sep 2016 20:50:31 GMT -->
+    <!-- Added by HTTrack -->
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <!-- /Added by HTTrack -->
     <head>
-
-	
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
@@ -48,40 +48,6 @@
 //-->
 </script>
 
-		<script>
-     			function initMap() {
-			var lasVegasA = {lat: 36.086010, lng: -115.153969};
-
-			var map = new google.maps.Map(document.getElementById('map'), {
-		  		zoom: 12,
-		  		center: lasVegasA
-	       		});
-
-			var marker = new google.maps.Marker({
-		  		position: lasVegasA,
-		 		map: map
-			});
-
-
-            var studentUnion= {lat: 36.105951, lng: -115.138427};
-
-                var map2 = new google.maps.Map(document.getElementById('map_su'), {
-                  zoom: 16,
-                  center: studentUnion
-                  });
-                var marker = new google.maps.Marker({
-                  position: studentUnion,
-                  map: map2
-                });
-
-      			}
-    		</script>
-		    <script async defer
-    			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyApgVc-YxPNBdYfYg8mkYyCHG-KUUeWT2s&callback=initMap">
-    		</script>
-
-
-            
 
 
 
@@ -108,36 +74,81 @@
                                     <li class="active">
                                         <a href="index.html">Home</a>
                                     </li>
+<!--                                    <li>
+                                        <a href="#" class="has-child no-link">Participation</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="camera-ready-instructions.html">Camera-ready instructions</a></li>
+                                            <li><a href="poster-instructions.html">Poster instructions</a></li>
+                                            <li><a href="scholarships.html">Student scholarships</a></li>
+                                            <li><a href="papers.html">Call for papers</a></li>
+                                            <li><a href="posters.html">Call for posters</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="has-child no-link">Conference attendees</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="registration.html">Registration</a></li>
+                                            <li><a href="visa.html">Visa support letters</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="has-child no-link">Program</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="schedule.html">Schedule</a></li>
+                                            <li><a href="keynotes.html">Keynote Speakers</a></li>
+                                            <li><a href="poster-sessions.html">Poster Sessions</a></li>
+                                        </ul>
+                                    </li> -->
                                     <li>
                                         <a href="#" class="has-child no-link">Organization</a>
                                         <ul class="list-unstyled child-navigation">
                                             <li><a href="organizing-committee.html">Organizing Committee</a></li>
-                                            <li><a href="program-committee.php">Program Committee</a></li>
+                                            <li><a href="#">Program Committee</a></li>
                                         </ul>
                                     </li>
 					
-				   <li>
+				   					<li>
                                         <a href="#" class="has-child no-link">Calls</a>
                                         <ul class="list-unstyled child-navigation">
                                             <li><a href="call-for-regular-papers.html">Call for Regular Papers</a></li>
                                             <li><a href="call-for-workshop.html">Call for Workshop Proposals</a></li>
-                                            <li><a href="call-for-tutorial.html">Call for Tutorial Proposals</a></li>
+                                            <li><a href="#">Call for Tutorial Proposals</a></li>
                                             <li><a href="call-for-industry-track-paper.html">Call for Industry Track Papers</a></li>
+
                                         </ul>
                                     </li>
                                     <li>
                                         <a href="#" class="has-child no-link">Venue</a>
                                         <ul class="list-unstyled child-navigation">
                                             <li><a href="about-lv.html">About Las Vegas</a></li>
-                                            <li><a href="travel.html">Travel</a></li>
+                                            <li><a href="#">Travel</a></li>
+                                        </ul>
+                                    </li> 
+
+                                    
+
+
+<!--                                    <li>
+                                        <a href="#" class="has-child no-link">Sponsorship</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="sponsors.html">Our sponsors</a></li>
+                                            <li><a href="becoming-sponsor.html">Becoming a sponsor</a></li>
                                         </ul>
                                     </li>
-
+                                    <li>
+                                        <a href="#" class="has-child no-link">Venue</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="location.html">Location</a></li>
+                                            <li><a href="accommodation.html">Accommodation</a></li>
+                                        </ul>
+                                    </li> -->
                                 </ul>
                             </nav>
                             <!-- /.navbar collapse-->
                             <div class="social">
 <!--                                <div class="icons">
+                                    <a href="https://twitter.com/ACMSoCC2016"><i class="fa fa-twitter"></i></a>
+                                    <a href="https://www.facebook.com/socc2016"><i class="fa fa-facebook"></i></a>
                                 </div> -->
                                 <!-- /.icons -->
                             </div>
@@ -191,28 +202,102 @@
                             <div class="col-md-10">
                                 <section id="main-content">
                                     <div class="section-content">
-                                        
-                                        <header><h3>How to reach Las Vegas</h3></header>
+                                        <header>
+                                            <h3>Call for Industry Track Papers (<a href="assets/MW17CFPIndustryTrack.pdf" target="_blank">PDF</a>):</h3>
+                                        </header>
+                                        <p>
+                                            The annual ACM/IFIP/USENIX Middleware conference is a major forum for the discussion of innovations and recent advances in the design, construction and use of middleware systems. The Industrial Track of the Middleware 2017 Conference solicits 6-page papers for presentation during the main conference (single track) and inclusion in the ACM Digital Library. The topics of interest are similar to those in the general conference call for papers. However, the purpose of the Industrial Track is to emphasize the practical issues, observations, and measurements of "real-world" systems and applications and to disseminate information of particular interest to Middleware researchers, architects, developers and administrators.
+                                        </p>
 
-                                         <header><h4>By Plane</h4></header>
+                                        <header><h3>Topics</h3></header>
+                                        <p> The topics of the industry track include, but are not limited to: </p>
+                                        <ul class="topics-type-list">
+                                        	<li>Experience reports and measurements relating to</li>
+                                        		<ul class="topics-type-list">
+                                        			<li>Deployments of Internet-scale environments, including grids, datacenters, and other large-scale systems</li>
+                                        			<li>Cloud computing middleware, for Infrastructure/Platform/Application as a Service Quality of service, quality of user experience</li>
+                                        			<li>Scalability issues (e.g., observed real-life workloads and applications)</li>
+                                        			<li>Reliability and availability issues (observed real-life faults, fault models, and recovery mechanisms)</li>
+                                        			<li>Security issues (e.g., real attacks on deployed platforms and their impacts)</li>
+                                        			<li>Middleware for mobile computing and its distinctive requirements</li>
+                                        			<li>Middleware in big data and machine learning systems and applications</li>
+                                        			<li>Deployments of embedded systems, sensor networks and Internet of Things</li>
+                                        		</ul>
+                                        	<li>Approaches, mechanisms and tools for</li>
+                                        		<ul class="topics-type-list">
+                                        			<li>Real-life deployment, e.g., hardware equipment management (installation, updates, replacement), management of data center buildings, network points of presence, "data center in-a- box"</li>
+                                        			<li>DevOps, continuous software development, integration, and delivery</li>
+                                        			<li>Operation and maintenance, e.g., install and upgrade, bug fixes, and backup</li>
+                                        			<li>Runtime management, e.g., monitoring, alerting, troubleshooting, and remediation</li>
+                                        			<li>Economic, energy-aware, and environmental analyses (e.g. cost and/or energy impacts of various data center deployment models)</li>
+                                        		</ul>
+                                        </ul>
 
-                                        <p>The closest airport to the venue is McCarran International Airport (LAS), which is the main airport in the region. There are direct flights from most international cities to LAS. Further, most hotels in the area have airport shuttles connecting LAS to/from the hotels.
-</p>
-                                        <p> </p>
 
-                                            <div id="map"></div>
-					                    
-                                        <header><h4>By Car</h4></header>
+                                        <table width="70%">
+                                        <header><h3>Important Dates (Tentative)</h3></header>
+                                            <tr>
+                                                <td>Abstract registration:</td>
+                                                <td>August 11, 2017</td> 
+                                            </tr>
+                                            <tr>
+                                                <td>Paper submission</td>
+                                                <td>August 18, 2017</td> 
+                                            </tr>
+                                            <tr>
+                                                <td>Author notification:</td>
+                                                <td>September 30, 2017</td> 
+                                            </tr>
+                                            <tr>
+                                                <td>Camera ready due</td>
+                                                <td>October 27, 2017</td> 
+                                            </tr>
+					
+					
+                                        </table>
 
+					<header><h3>Submission Guidelines</h3></header>
+					
+					
+				     <p>
+						A submission must be a single PDF file conforming to the <a href="http://www.acm.org/sigs/publications/proceedings-templates">ACM Conference Format </a>a> and must not exceed 6 pages (including abstract, figures, tables, and appendices, but excluding references). Submissions must be in English. Submissions that do not adhere to these guidelines or that violate formatting will be declined without review. Reviewing is single-blind; papers must include author names and affiliations. 
 
-                                        <header><h3>Conference Location </h3></header>
-                                            <p>The 2017 ACM/IFIP/USENIX Middleware conference will be held at the University of Nevada, Las Vegas (UNLV). All events will be in the Student Union at UNLV.</p>
+				     </p>	
+				     <p>
+						Each submission will be reviewed by at least three members of the Industrial Track Program Committee. Submissions will be evaluated on the basis of originality, importance of contribution, technical soundness, evaluation, quality of presentation and appropriate comparison to related work. The committee as a whole will make final decisions about which submissions to accept for presentation at the conference.
 
-                                            <div id="map_su"></div>
+				     </p>
 
+				     <p>
+				     Simultaneous submission of the same work to multiple venues, submission of previously published work, or plagiarism constitutes dishonesty or fraud. The conference organizers, like those of other scientific conferences and journals, prohibit these practices and may take actions against authors who have committed them.  Papers accompanied by nondisclosure agreement forms will not be considered.  If you are uncertain whether your submission meets the guidelines, please contact the program co-chairs.
+				     </p>
 
-                                        <header><h3>Getting to the Conference</h3></header>
+				     <p>
+				     	By submitting a paper, you agree that at least one of the authors will attend the conference and present the paper in person.
 
+				     </p>
+
+				     <p>
+				     	Submissions will be handled through HotCRP- <a href="https://middleware17industry.hotcrp.com/">https://middleware17industry.hotcrp.com/</a>.
+				     </p>
+
+				     	<table width="70%">
+                                        <header><h3>Program Chairs</h3></header>
+                                            <tr>
+                                                <td>Xiaoyun Zhu</td>
+                                                <td>Futurewei Technologies</td> 
+                                            </tr>
+                                            <tr>
+                                                <td>Indrajit Roy</td>
+                                                <td>Google</td> 
+                                            </tr>
+                                           
+					
+                        </table>
+
+				     
+				    
+						
                                     </div>
                                     <!-- /.section-content -->
                                 </section>
@@ -235,6 +320,8 @@
 <!--                            <div class="footer-social">
                                 <figure>Follow us:</figure>
                                 <div class="icons">
+                                    <a href="https://twitter.com/ACMSoCC2016"><i class="fa fa-twitter"></i></a>
+                                    <a href="https://www.facebook.com/socc2016"><i class="fa fa-facebook"></i></a>
                                 </div> 
                             </div> -->
                             <!-- /.social -->
@@ -280,5 +367,5 @@
         ga('create', 'UA-39874729-4', 'auto');
         ga('send', 'pageview');
     </script> -->
-
+    <!-- Mirrored from acmsocc.github.io/2016/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 29 Sep 2016 20:50:49 GMT -->
 </html>

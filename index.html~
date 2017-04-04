@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html>
-    <!-- Mirrored from acmsocc.github.io/2016/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 29 Sep 2016 20:50:31 GMT -->
-    <!-- Added by HTTrack -->
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <!-- /Added by HTTrack -->
     <head>
@@ -112,17 +110,10 @@
                                         <ul class="list-unstyled child-navigation">
                                             <li><a href="call-for-regular-papers.html">Call for Regular Papers</a></li>
                                             <li><a href="call-for-workshop.html">Call for Workshop Proposals</a></li>
-                                            <li><a href="call-for-tutorial.html">Call for Tutorial Proposals</a></li>
+                                            <li><a href="#">Call for Tutorial Proposals</a></li>
                                             <li><a href="call-for-industry-track-paper.html">Call for Industry Track Papers</a></li>
                                         </ul>
                                     </li>
-                                    <li>
-                                        <a href="#" class="has-child no-link">Venue</a>
-                                        <ul class="list-unstyled child-navigation">
-                                            <li><a href="about-lv.html">About Las Vegas</a></li>
-                                            <li><a href="#">Travel</a></li>
-                                        </ul>
-                                    </li> 
 
 <!--                                    <li>
                                         <a href="#" class="has-child no-link">Sponsorship</a>
@@ -131,20 +122,20 @@
                                             <li><a href="becoming-sponsor.html">Becoming a sponsor</a></li>
                                         </ul>
                                     </li>
+ -->
                                     <li>
                                         <a href="#" class="has-child no-link">Venue</a>
                                         <ul class="list-unstyled child-navigation">
-                                            <li><a href="location.html">Location</a></li>
-                                            <li><a href="accommodation.html">Accommodation</a></li>
+                                            <li><a href="about-lv.html">About Las Vegas</a></li>
+                                            <li><a href="#">Travel</a></li>
                                         </ul>
-                                    </li> -->
+                                    </li> 
+
                                 </ul>
                             </nav>
                             <!-- /.navbar collapse-->
                             <div class="social">
 <!--                                <div class="icons">
-                                    <a href="https://twitter.com/ACMSoCC2016"><i class="fa fa-twitter"></i></a>
-                                    <a href="https://www.facebook.com/socc2016"><i class="fa fa-facebook"></i></a>
                                 </div> -->
                                 <!-- /.icons -->
                             </div>
@@ -198,77 +189,119 @@
                             <div class="col-md-10">
                                 <section id="main-content">
                                     <div class="section-content">
+                                        <div id="anouncements-bar">
+                                            <header>
+                                                <h3>Anouncements:</h3>
+                                                <ul class="anouncements">
+                                                    <li>Mar 28, 2017: <a href="call-for-industry-track-paper.html">Call for industry track papers</a> is out.</li>
+                                                    <li>Mar 18, 2017: <a href="call-for-workshop.html">Call for workshop proposals</a> is out.</li>
+                                                    <li>Dec 14, 2016: <a href="call-for-regular-papers.html">Call for regular papers</a> is out.</li>
+                                                </ul>
+                                            </header> 
+
+                                        </div>
+                                        <br>
                                         <header>
-                                            <h3>Call for Workshop Proposals (<a href="assets/CFP_WP.pdf" target="_blank">PDF</a>):</h3>
+                                            <h3>Call for Papers (<a href="assets/mw17_poster.pdf" target="_blank">PDF</a>):</h3>
                                         </header>
                                         <p>
-                                            The annual ACM/IFIP/USENIX Middleware conference is a major forum for the discussion of innovations and recent advances in the design, construction and use of middleware systems. Middleware is the software that resides between applications and the underlying architecture and platforms, often with an emphasis on networked computing. The goal of middleware is to facilitate the development of applications by providing higher-level abstractions for better programmability, performance, scalability, security. It is a rapidly evolving and growing field. The Middleware conference traditionally includes a number of high quality workshops. We invite experts on related research subjects to submit one-day or half-day workshop proposals in scope of Middleware 2017. Proposed workshops can be on any topic related to middleware, but we are particularly interested in new workshops in emerging, new middleware areas.
+                                            The annual ACM/IFIP/USENIX Middleware conference is a major forum for the discussion of innovations and recent
+                                            scientific advances of middleware systems with a focus on the design, implementation, deployment, and evaluation of
+                                            distributed systems, platforms and architectures for computing, storage, and communication. Highlights of the conference
+                                            will include a high quality singletrack
+                                            technical program, invited speakers, an industrial track, panel discussions involving
+                                            academic and industry leaders, poster and demonstration presentations, a doctoral symposium, tutorials and workshops.
                                         </p>
 
                                         <table width="70%">
                                         <header><h3>Important Dates</h3></header>
                                             <tr>
-                                                <td>Workshop Proposal Submission Deadline</td>
-                                                <td>May 17, 2017</td> 
+                                                <td>Abstract Submission</td>
+                                                <td>May 12, 2017</td> 
                                             </tr>
                                             <tr>
-                                                <td>Workshop Proposal Acceptance Notification</td>
-                                                <td>May 24, 2017</td> 
+                                                <td>Paper Submission</td>
+                                                <td>May 19, 2017</td> 
                                             </tr>
                                             <tr>
-                                                <td>Workshop Calls for Papers Online</td>
-                                                <td>June 15, 2017</td> 
+                                                <td>Notification Due</td>
+                                                <td>Aug 23, 2017</td> 
                                             </tr>
                                             <tr>
-                                                <td>Approximate Workshop Paper Submission Deadline</td>
-                                                <td>August 31, 2017</td> 
+                                                <td>Final Version Due</td>
+                                                <td>Sep 15, 2017</td> 
                                             </tr>
-					
-					   <tr>
-                                                <td>Workshop Paper Notification</td>
-                                                <td>September 28, 2017</td> 
-                                            </tr>
-
-					    <tr>
-                                                <td>Workshop Paper Camera Ready (Hard Deadline)</td>
-                                                <td>October 20, 2017</td> 
-                                            </tr>
-						
                                         </table>
+                                        <br>
+                                        <p> Please contact the <a href="mailto:mw17-pc-chairs@imperial.ac.uk" target="_top">TPC chairs</a> in case of any questions related to the call for papers.</p>
+                                        <header>
+                                        <h3>Topics:</h3>
+                                        </header>
+                                        <p>
+                                            Original submissions of research papers on a diversity of topics are sought, particularly those identifying new
+                                            research directions. The topics of the conference include, but are not limited to:
+                                        </p>
 
-					<header><h3>Workshop Proposal Submission</h3></header>
-					<P> A workshop proposal (not exceeding three pages, 11pt, in PDF format) should include the following information: </P>
-						<ul class="topics-type-list">
-							<li>The title of the workshop;</li>
-							<li>The names and e-mail addresses of the organizing committee;</li>
-							<li>A brief technical description of the workshop topic area;</li>
-							<li>The history of the workshops, if applicable;</li>
-							<li>A short description of the intended format of the workshop (keynote speakers, discussions, ...);</li>
-							<li>Tentative workshop paper submission and notification deadlines. Note that the latest camera-ready deadline for all workshop papers is October 20, 2017. This is a HARD DEADLINE to allow papers to be published in the ACM digital library.</li>
-							<li>A brief statement of the relevance of the workshop to Middleware;</li>
-							<li>A preliminary list of PC members that have accepted to participate in the committee;</li>						
-							<li>The submission managing system;</li>
-							<li>A description of the organizers’ strategy for attracting submissions and attendees to the workshop, including information about how publicity will be carried to attract world-wide participation.</li>
+                                        <h5>Platforms and Usage Models:</h5>
+                                        <ul class="topics-list">
+                                        <li>Cloud computing and data centres</li>
+                                        <li>Data-intensive computing (big data) and data analytics</li>
+                                        <li>Mobile devices and services</li>
+                                        <li>Ubiquitous and pervasive computing</li>
+                                        <li>Networking, network function virtualization, software-defined networking</li>
+                                        <li>Internet applications and multimedia</li>
+                                        <li>Internet-of-Things, cyber-physical systems, smart cities</li>
+                                        </ul>
 
-						</ul>	
-					
-				     <p>
-					Each workshop will organize its own submissions and reviewing procedures, and it will provide its own web page. A link will be provided to this web page from the Middleware 2017 Web site. Workshop organizers will ensure that all accepted papers are peer reviewed and will need to upload camera ready and copy rights of all accepted papers timely through ACM portal. It’s mandatory that at least one author of accepted papers has a full pre-conference registration. Moreover, organizers will plan their schedule so that: (i) the paper submission deadline falls after the main conference's notification date; (ii) authors are notified no later than September 28, 2017; and (iii) authors submit their that camera-ready papers no later than October 20, 2017. Accepted papers should be no longer than 6 pages in the standard ACM format. Workshop organizers are responsible for preparing the papers for their workshops in the format required by ACM. As in previous years, the Middleware conference organizers will provide companion proceedings including all workshop papers, which will be available in the ACM Digital Library. This is subject to the availability of camera-ready version by October 20, 2017.
+                                        <h5>Systems and Engineering Issues:</h5>
+                                        <ul class="topics-list">
+                                        <li>Scalability and performance</li>
+                                        <li>Reliability and fault tolerance</li>
+                                        <li>Consistency, availability, and replication</li>
+                                        <li>Security and privacy</li>
+                                        <li>Virtualization, auto-scaling, provisioning, and scheduling</li>
+                                        <li>Real-time solutions and quality-of-service</li>
+                                        <li>Energy- and power-aware techniques</li>
+                                        </ul>
 
-				     </p>	
-				     <p>
-					We strongly encourage workshop organizers to use hotcrp (<a href="http://hotcrp.com/">http://hotcrp.com/</a>), which is free of charge for Middleware workshops and provides a list of tools to manage copyright assignment, final-version submission, PDF checking, and proceedings construction.
+                                        <h5>Design Principles and Programming Support:</h5>
+                                        <ul class="topics-list">
+                                        <li>Programming abstractions and paradigms for middleware</li>
+                                        <li>Methodologies and tools for the design, implementation, verification, and evaluation</li>
+                                        <li>Event-based, publish/subscribe, and peer-to-peer solutions</li>
+                                        <li>Reconfigurable, adaptable, and reflective approaches</li>
+                                        <li>Reviews of middleware paradigms, e.g., object models, aspect orientation, etc.</li>
+                                        </ul>
+                                        <!--<div class="row">
+                                            <div class="col-md-6">
+                                            <a href="papers.html" rel="nofollow"><h3>[Call for papers]</h3>
+                                            </div>
+                                            <div class="col-md-6">
+                                            <a href="posters.html" rel="nofollow"><h3>[Call for posters]</h3></a>
+                                            </div>
+                                            </div>
+                                            <a href="becoming-sponsor.html" rel="nofollow"><h5>Sponsorship opportunities</h5></a><br> -->
+                                        <br/>
+                                        <header>Original papers of three types are sought:</header>
 
-				     </p>
-				     
-				    <p>
-				    	Workshop proposals must be sent to both of the following addresses:
-					<ul class="topics-type-list">
-						<li>Lydia Y. Chen, yic@zurich.ibm.com (IBM Research Zurich, Swtizerand)</li>
-						<li>Guillaume Pierre, guillaume.pierre@irisa.fr (IRISA/Rennes 1 University, France)</li>
-					</ul>
-				    </p>
-						
+                                        <ul class="topics-type-list">
+                                        <li> <em>Research Papers:</em> These papers report original research on the above topics.</li>
+
+                                        <li><em>Experimentation and Deployment Papers:</em> These papers describe complete systems, platforms, and/or comprehensive experimental evaluations of alternative designs and solutions to well-known problems. The emphasis during the evaluation of these papers will be less on the novelty and more on the demonstrated usefulness and potential impact of the contributions, the extensive experimentation involved, and the quality and weight of the lessons learned.</li>
+
+                                        <li><em>Big Ideas Papers:</em> These are papers that have the potential for opening up new research directions. For such papers, the potential to motivate new research is more important than full experimental evaluation, though some preliminary evidence of the effectiveness of the approach or idea is important.</li>
+                                        </ul>
+                                        <p>
+                                            Submitted papers must have at most <strong>12 pages</strong> of technical content, including text, figures, and appendices, but excluding
+                                            any number of additional pages for bibliographic references. Note that submissions must be <strong>double-blind</strong>: authors' names
+                                            must not appear, and authors must make a good faith attempt to anonymize their submissions. Submitted papers must
+                                            adhere to the formatting instructions of the ACM style, which can found on the submission page, and should clearly indicate
+                                            the paper type on the first page. The Middleware 2017 conference proceedings will be published in the ACM Digital Library.
+                                            The official publication date will be the date the proceedings are made available in the ACM Digital Library which may be up
+                                            to two weeks prior to the first day of the Middleware conference. Note that the official publication date affects the deadline
+                                            for any patent filings related to published work.
+                                        </p>
+                                        <br>
                                     </div>
                                     <!-- /.section-content -->
                                 </section>
@@ -291,8 +324,6 @@
 <!--                            <div class="footer-social">
                                 <figure>Follow us:</figure>
                                 <div class="icons">
-                                    <a href="https://twitter.com/ACMSoCC2016"><i class="fa fa-twitter"></i></a>
-                                    <a href="https://www.facebook.com/socc2016"><i class="fa fa-facebook"></i></a>
                                 </div> 
                             </div> -->
                             <!-- /.social -->
@@ -338,5 +369,5 @@
         ga('create', 'UA-39874729-4', 'auto');
         ga('send', 'pageview');
     </script> -->
-    <!-- Mirrored from acmsocc.github.io/2016/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 29 Sep 2016 20:50:49 GMT -->
+
 </html>
