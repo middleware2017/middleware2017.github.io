@@ -231,7 +231,7 @@ a.twitter-timeline:focus {
   background: #ede8e9 ;
   color: #4d2227;
   float: right;
-  width: 25%;
+  width: 24%;
   height: 10em;
   overflow: hidden ;
   padding: 0px 0px 5px 10px; /* top right bottom left*/
@@ -239,17 +239,28 @@ a.twitter-timeline:focus {
   margin: 0 auto;
   border:2px solid #4d2227;
 }
+#hotcrp-open {
+  background: #ede8e9 ;
+  color: #4d2227;
+  float: left;
+  width: 24%;
+  height: 10em;
+  overflow: hidden ;
+  padding: 1em; /* top right bottom left*/
+  margin: 0em 0em 0 1%;
+  border:2px solid #4d2227;
+}
 /****
   A
 ****/
 #anouncements-bar{
   background: #ede8e9 ;
-  color: #111;
+  color: #4d2227;
   float: left;
-  width: 72%;
+  width: 50%;
   height: 10em;
   overflow-y:auto;
-  padding: 0px 0px 5px 10px; /* top right bottom left*/
+  padding: 0em 1em; /* top right bottom left*/ /* top-bot left-right */
   margin: 0 auto;
   border:2px solid #4d2227;
 }
