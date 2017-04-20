@@ -52,18 +52,18 @@
 
 		<script>
      			function initMap() {
-			var lasVegasA = {lat: 36.086010, lng: -115.153969};
 
-			var map = new google.maps.Map(document.getElementById('map'), {
-		  		zoom: 12,
-		  		center: lasVegasA
-	       		});
 
-			var marker = new google.maps.Marker({
-		  		position: lasVegasA,
-		 		map: map
-			});
+            var studentUnion= {lat: 36.105951, lng: -115.138427};
 
+                var map2 = new google.maps.Map(document.getElementById('map_su'), {
+                  zoom: 16,
+                  center: studentUnion
+                  });
+                var marker = new google.maps.Marker({
+                  position: studentUnion,
+                  map: map2
+                });
 
       			}
     		</script>
@@ -183,17 +183,12 @@
                             <div class="col-md-10">
                                 <section id="main-content">
                                     <div class="section-content">
-                                        
-                                        <header><h3>How to reach Las Vegas</h3></header>
 
-                                         <header><h4>By Plane</h4></header>
+                                        <header><h3>Conference Location </h3></header>
+                                            <p>The 2017 ACM/IFIP/USENIX Middleware conference will be held at the University of Nevada, Las Vegas (UNLV). All events will be in the Student Union at UNLV.</p>
 
-                                        <p>The closest airport to the venue is McCarran International Airport (LAS), which is the main airport in the region. There are direct flights from most international cities to LAS. Further, most hotels in the area have airport shuttles connecting LAS to/from the hotels.
-</p>
-                                        <p> </p>
+                                            <div id="map_su"></div>
 
-                                            <div id="map"></div>
-					                    
 
                                     </div>
                                     <!-- /.section-content -->
