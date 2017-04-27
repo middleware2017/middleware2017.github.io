@@ -153,7 +153,7 @@
                                     <section id="members">
                                         <section id="program-chairs">
                                             <header>
-                                                <h2 class="no-divider">Program committee</h2>
+                                                <h2 class="no-divider">Program Committee</h2>
                                             </header>
                                             <?php
                                               $f = fopen("assets/mw_pc.csv", "r");
