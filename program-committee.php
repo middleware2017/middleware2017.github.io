@@ -178,14 +178,14 @@
                                         </section>
                                         <!-- /#program-chairs -->
                                         <table width="70%">
-                                            <header><h3>Program Chairs</h3></header>
+                                            <header><h2 class="no-divider">Program Chairs</h2></header>
                                             <tr>
-                                                <td>Bettina Kemme</td>
-                                                <td>McGill University</td>
+                                                <td><header><a target="_blank" href="http://www.cs.mcgill.ca/~kemme/">Bettina Kemme</a></header></td>
+                                                <td><figure>McGill University</figure></td>
                                             </tr>
                                             <tr>
-                                                <td>Peter Pietzuch</td>
-                                                <td>Imperial College London</td>
+                                                <td><header><a target="_blank" href="https://www.doc.ic.ac.uk/~prp/">Peter Pietzuch</a></header></td>
+                                                <td><figure>Imperial College London</figure></td>
                                             </tr>
                                         </table>
                                     </section>
