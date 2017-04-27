@@ -177,6 +177,17 @@
                                             ?>
                                         </section>
                                         <!-- /#program-chairs -->
+                                        <table width="70%">
+                                            <header><h3>Program Chairs</h3></header>
+                                            <tr>
+                                                <td>Bettina Kemme</td>
+                                                <td>McGill University</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Peter Pietzuch</td>
+                                                <td>Imperial College London</td>
+                                            </tr>
+                                        </table>
                                     </section>
                                 </div>
                                 <!-- /#page-main -->
