@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+    <!-- Mirrored from acmsocc.github.io/2016/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 29 Sep 2016 20:50:31 GMT -->
+    <!-- Added by HTTrack -->
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <!-- /Added by HTTrack -->
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href="assets/css/font-awesome.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/selectize.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/vanillabox/vanillabox.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+        <link rel="shortcut icon" href="assets/myfavicon.ico" type="image/x-icon">
+        <link rel="icon" href="assets/myfavicon.ico" type="image/x-icon">
+
+        <script language="JavaScript1.2">
+            var howOften = 4; //number often in seconds to rotate
+            var current = 0; //start the counter at 0
+            var ns6 = document.getElementById&&!document.all; //detect netscape 6
+            // place your images, text, etc in the array elements here
+            var items = new Array();
+            items[0]="<img alt='Las Vegas in Winter!' src='assets/img/vegas1.jpg' height='400' width='710' border='0'/>"; 
+            items[1]="<img alt='Las Vegas in Winter!' src='assets/img/vegas2.jpg' height='400' width='710' border='0'/>"; 
+            items[2]="<img alt='Las Vegas in Winter!' src='assets/img/vegas3.jpg' height='400' width='710' border='0'/>"; 
+            items[3]="<img alt='Las Vegas in Winter!' src='assets/img/vegas4.jpg' height='400' width='710' border='0'/>"; 
+
+            function rotater() {
+                document.getElementById("rotating_pics").innerHTML = items[current];
+                current = (current==items.length-1) ? 0 : current + 1;
+                setTimeout("rotater()",howOften*1000);
+            }
+
+            function rotater() {
+                if(document.layers)
+                {
+                    document.placeholderlayer.document.write(items[current]);
+                    document.placeholderlayer.document.close();
+                }
+                if(ns6)document.getElementById("rotating_pics").innerHTML=items[current]
+                    if(document.all)
+                        placeholderdiv.innerHTML=items[current];
+                        current = (current==items.length-1) ? 0 : current + 1; //increment or reset
+                        setTimeout("rotater()",howOften*1000);
+            }
+            window.onload=rotater;
+//-->
+</script>
+
+
+
+
+        <title>2017 ACM/IFIP/USENIX International Middleware Conference</title>
+    </head>
+    <body class="page-sub-page page-microsite">
+        <!-- Wrapper -->
+        <div class="wrapper">
+            <!-- Header -->
+            <div class="navigation-wrapper">
+                <div class="primary-navigation-wrapper">
+                    <header class="navbar" id="top" role="banner">
+                        <div class="container">
+                            <div class="navbar-header">
+                                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <nav class="collapse navbar-collapse bs-navbar-collapse navbar-left" role="navigation">
+                                <ul class="nav navbar-nav">
+                                    <li class="active">
+                                        <a href="index.html">Home</a>
+                                    </li>
+<!--                                    <li>
+                                        <a href="#" class="has-child no-link">Participation</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="camera-ready-instructions.html">Camera-ready instructions</a></li>
+                                            <li><a href="poster-instructions.html">Poster instructions</a></li>
+                                            <li><a href="scholarships.html">Student scholarships</a></li>
+                                            <li><a href="papers.html">Call for papers</a></li>
+                                            <li><a href="posters.html">Call for posters</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="has-child no-link">Conference attendees</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="registration.html">Registration</a></li>
+                                            <li><a href="visa.html">Visa support letters</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="has-child no-link">Program</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="schedule.html">Schedule</a></li>
+                                            <li><a href="keynotes.html">Keynote Speakers</a></li>
+                                            <li><a href="poster-sessions.html">Poster Sessions</a></li>
+                                        </ul>
+                                    </li> -->
+                                    <li>
+                                        <a href="#" class="has-child no-link">Organization</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="organizing-committee.html">Organizing Committee</a></li>
+                                            <li><a href="program-committee.php">Program Committee</a></li>
+                                        </ul>
+                                    </li>
+					
+				   <li>
+                                        <a href="#" class="has-child no-link">Calls</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="call-for-regular-papers.html">Call for Regular Papers</a></li>
+                                            <li><a href="call-for-workshop.html">Call for Workshop Proposals</a></li>
+                                            <li><a href="call-for-tutorial.html">Call for Tutorial Proposals</a></li>
+                                            <li><a href="call-for-industry-track-paper.html">Call for Industry Track Papers</a></li>
+                                            <li><a href="call-for-doctoral-symposium-papers.html">Call for Doctoral Symposium Papers</a></li>
+                                            <li><a href="call-for-demos-and-posters.html">Call for Demos  and Posters</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="has-child no-link">Venue</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="about-lv.html">About Las Vegas</a></li>
+                                            <li><a href="travel.html">Travel</a></li>
+                                            <li><a href="conference-location.html">Conference Location</a></li>
+                                        </ul>
+                                    </li> 
+
+<!--                                    <li>
+                                        <a href="#" class="has-child no-link">Sponsorship</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="sponsors.html">Our sponsors</a></li>
+                                            <li><a href="becoming-sponsor.html">Becoming a sponsor</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="has-child no-link">Venue</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="location.html">Location</a></li>
+                                            <li><a href="accommodation.html">Accommodation</a></li>
+                                        </ul>
+                                    </li> -->
+                                </ul>
+                            </nav>
+                            <!-- /.navbar collapse-->
+                            <div class="social">
+<!--                                <div class="icons">
+                                    <a href="https://twitter.com/ACMSoCC2016"><i class="fa fa-twitter"></i></a>
+                                    <a href="https://www.facebook.com/socc2016"><i class="fa fa-facebook"></i></a>
+                                </div> -->
+                                <!-- /.icons -->
+                            </div>
+                        </div>
+                        <!-- /.container -->
+                    </header>
+                    <!-- /.navbar -->
+                </div>
+                <!-- /.primary-navigation -->
+            </div>
+            <!-- end Header -->
+            <div id="page-content">
+                <!-- Slider -->
+                <div id="slider">
+                    <div class="container">
+                        <div class="slider-wrapper">
+                            <div class="row">
+                                <div class="col-md-9 col-sm-12">
+                                    <div class="row">
+                                        <div class="image-carousel">
+                                            <div class="slide">
+                                                <div class="image-carousel-slide" id="rotating_pics"></div>
+                                            </div>
+                                            <!-- /.slide -->
+                                        </div>
+                                        <!-- /.image-carousel -->
+                                    </div>
+                                    <!-- /.row -->
+                                </div>
+                                <!-- /.col-md-9 -->
+                                <div class="col-md-3 col-sm-12">
+                                    <header>
+                                        <h2>ACM/IFIP/USENIX Middleware 2017</h2>
+                                        <h3 style="color:white">Las Vegas, Nevada</h3>
+                                        <h3 style="color:white">Dec 11-15, 2017</h3>
+                                    </header>
+                                </div>
+                                <!-- /.col-md-3 -->
+                            </div>
+                            <!-- /.row -->
+                        </div>
+                        <!-- /.slider-wrapper -->
+                    </div>
+                    <!-- /.container -->
+                </div>
+                <!-- end Slider -->
+                <!-- Content -->
+                <div class="block">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <section id="main-content">
+                                    <div class="section-content">
+                                        <header>
+                                            
+                                            <h3>Call for Doctoral Symposium Papers(<a href="assets/MW17-Call-For-Doctoral-Symposium-Papers.pdf" target="_blank">PDF</a>):</h3>
+                                        </header>
+                                        <p>
+                                            The doctoral symposium of Middleware 2017 will be held in Las Vegas, Nevada. Following the tradition of past editions, the symposium provides an international forum that gives PhD students an opportunity to present and discuss their research with their peers and with a panel of expert mentors from the middleware field.
+                                        </p>
+
+
+                                        <header><h3>Important Dates</h3></header>
+
+                                        <table width="70%">
+                                            <tr>
+                                                <td>Paper Submission Deadline</td>
+                                                <td>September 25, 2017</td> 
+                                            </tr>
+                                            <tr>
+                                                <td>Notification of Acceptance</td>
+                                                <td>October 9, 2017</td> 
+                                            </tr>
+                                            <tr>
+                                                <td>Camera Ready</td>
+                                                <td>October 16, 2017</td> 
+                                            </tr>
+						
+                                        </table>
+
+                                        <p> *All deadline times are 23:59 UTC/GMT-12h </p>
+
+										<p>The symposium is open to PhD students at any stage of their studies. Applicants will be divided into two groups:
+
+											<ol>
+  												<li>Planners: students at an early-stage of their thesis who are focused on crafting their research proposal and completing background research.</li>
+  												<li>Finishers: students closer to finishing their thesis or dissertation and thinking about how to present their research, its results, and its impact.</li>
+											</ol>
+										</p>
+
+										<p> The symposium will provide an informal and welcoming atmosphere in which students from both groups will have the opportunity to discuss their planned goals, their progress and achievements, the key research challenges to overcome, as well as software and tools they are developing.</p>
+
+										<p>As part of the symposium, the participating students will receive valuable feedback from senior researchers and experts from both industry and academia. The symposium will also be an opportunity for meeting and sharing experiences with other PhD students who are addressing similar topics or are at a similar stage in their doctoral work.</p>
+
+										<p>All PhD students carrying out research on middleware topics are invited to submit a position paper to the doctoral symposium. Papers will be peer-reviewed by the symposium’s committee of selected mentors. The criteria for accepting papers includes the extent of the contribution of the work to the field, the originality of the problem, and the overall quality of the position paper. Position papers should fit within the topics of Middleware 2017 Call for Papers.</p>
+
+										<p>Accepted position papers will be presented during the doctoral symposium, as well as in a poster session during the main program of Middleware 2017. Contributions to the Middleware 2017 PhD Workshop will appear in a proceedings that supplements the main conference proceedings.</p>
+
+										<header><h3>Submission instructions:</h3></header>
+
+										<p>The Middleware 2017 Doctoral Symposium will accept papers in two categories. All papers should be formatted according to the ACM guidelines. Students should pay careful attention to which category is appropriate for the stage of their research and adhere to the instructions for the proper category.</p>
+
+										<p>Students in the early stages of the PhD research (i.e., likely within the first 1-2 years of the research portion of the degree) should submit within the Planners group. Position papers in this category should not be longer than 2 pages (including all materials).</p>
+
+										<p>Students nearing the end of their PhD research (i.e., have one or more publications complete, have concrete results to discuss) should submit within the Finishers group. Position papers in this category should not be longer than 4 pages (including all materials).</p>
+
+										<p>Submissions will be handled through HotCRP - https://middleware17ds.hotcrp.com.</p>
+
+										<header><h3>Suggested content:</h3></header>
+
+										<ul>
+											<li> Author name -- the first and only author should be the PhD student (other contributors, e.g., the PhD student's advisor(s), can be acknowledged in a separate section at the end).</li>
+											<li> Author affiliation.</li>
+											<li> An abstract (maximum of 100 words).</li>
+											<li> A clear statement of the identified research problem(s) and the context in which the problem(s) will be addressed.</li>
+											<li> A summary (with appropriate references) of the state-of-the-art related to the identified problem(s) along with a clear restatement of the “gap” relative to the research problem(s).</li>
+											<li> A statement of the approach and results.</li>
+												<ul>
+													<li> Planners: state the intended approach including a summary of work accomplished to date (if any).</li>
+													<li> Finishers: describe the research approach and results, including appropriate citations to any published portions.</li>
+												</ul>
+											<li> A description of evaluation.</li>
+												 <ul>
+												 		<li> Planners: describe the evaluation plan including intended metrics (quantitative and/or qualitative).</li>
+												 		<li> Finishers: give a clear description of the evaluation, with metrics tied to the originally stated research goals.</li>
+												</ul>
+											<li>A conclusion that includes a statement of the real or potential impact(s) of solving the identified research problem(s). Finishers especially should include a brief conjecture about future work that builds on the PhD research.</li>
+
+											<li>Acknowledgements that properly recognize others' contributions to the work (supervisor(s), other graduate students, funding sources, etc.).</li>
+
+										</ul>
+
+									<header><h3>Doctoral Symposium Chairs:</h3></header>
+										<table width="70%">
+                                            <tr>
+                                                <td>Evangelia Kalyvianaki</td>
+                                                <td>evangelia.kalyvianaki.1@city.ac.uk (City, University of London, UK)</td> 
+                                            </tr>
+                                            <tr>
+                                                <td>Mohammad Sadoghi</td>
+                                                <td>msadoghi@purdue.edu (Purdue University, USA)</td> 
+                                            </tr>
+                                           
+					
+                        			</table>
+
+									<header><h3>Student Travel Grants:</h3></header>
+
+										<p> Doctoral students that submit their work to this symposium are also encouraged to apply for student travel grants to attend Middleware 2017. Students participating in the doctoral symposium will be given priority for the travel grants.</p>
+
+                                    </div>
+                                    <!-- /.section-content -->
+                                </section>
+                                <!-- /.main-content -->
+                            </div>
+                            <!-- /.col-md-6 -->
+                            
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!-- /.container -->
+                </div>
+                <!-- end Content -->
+            </div>
+            <!-- Footer -->
+            <footer id="page-footer">
+                <section id="footer-top">
+                    <div class="container">
+                        <div class="footer-inner">
+<!--                            <div class="footer-social">
+                                <figure>Follow us:</figure>
+                                <div class="icons">
+                                    <a href="https://twitter.com/ACMSoCC2016"><i class="fa fa-twitter"></i></a>
+                                    <a href="https://www.facebook.com/socc2016"><i class="fa fa-facebook"></i></a>
+                                </div> 
+                            </div> -->
+                            <!-- /.social -->
+                        </div>
+                        <!-- /.footer-inner -->
+                    </div>
+                    <!-- /.container -->
+                </section>
+                <!-- /#footer-top -->
+                <section id="footer-bottom">
+                    <div class="container">
+                        <div class="footer-inner">
+                            <div class="copyright"></div>
+                            <!-- /.copyright -->
+                        </div>
+                        <!-- /.footer-inner -->
+                    </div>
+                    <!-- /.container -->
+                </section>
+                <!-- /#footer-bottom -->
+            </footer>
+            <!-- end Footer -->
+        </div>
+    </body>
+    <script type="text/javascript" src="assets/js/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/selectize.min.js"></script>
+    <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.placeholder.js"></script>
+    <script type="text/javascript" src="assets/js/jQuery.equalHeights.js"></script>
+    <script type="text/javascript" src="assets/js/icheck.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.vanillabox-0.1.5.min.js"></script>
+    <script type="text/javascript" src="assets/js/retina-1.1.0.min.js"></script>
+    <script type="text/javascript" src="assets/js/custom.js"></script>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<!--    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','../../www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-39874729-4', 'auto');
+        ga('send', 'pageview');
+    </script> -->
+    <!-- Mirrored from acmsocc.github.io/2016/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 29 Sep 2016 20:50:49 GMT -->
+</html>
