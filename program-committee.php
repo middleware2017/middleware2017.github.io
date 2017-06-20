@@ -82,13 +82,16 @@
 			  <li>
                                  <a href="#" class="has-child no-link">Calls</a>
                                  <ul class="list-unstyled child-navigation">
- 							<li><a href="call-consolidated.html">Consolidated Call for Submissions</a></li>
-                                     <li><a href="call-for-regular-papers.html">Call for Regular Papers</a></li>
-                                     <li><a href="call-for-workshop.html">Call for Workshop Proposals</a></li>
-                                     <li><a href="call-for-tutorial.html">Call for Tutorial Proposals</a></li>
-                                     <li><a href="call-for-industry-track-paper.html">Call for Industry Track Papers</a></li>
-                                     <li><a href="call-for-doctoral-symposium-papers.html">Call for Doctoral Symposium Papers</a></li>
-                                     <li><a href="call-for-demos-and-posters.html">Call for Demos  and Posters</a></li>
+ 								 <li><a href="call-consolidated.html">Consolidated Open Calls</a></li>
+
+                                            <li><a href="call-for-industry-track-paper.html">Call for Industry Track Papers</a></li>
+                                            <li><a href="call-for-doctoral-symposium-papers.html">Call for Doctoral Symposium Papers</a></li>
+                                            <li><a href="call-for-demos-and-posters.html">Call for Demos  and Posters</a></li>
+
+                                            <li><a href="call-for-regular-papers.html"><s>Call for Regular Papers</s> (closed)</a></li>
+                                            <li><a href="call-for-workshop.html"><s>Call for Workshop Proposals</s> (closed)</a></li>
+                                            <li><a href="call-for-tutorial.html"><s>Call for Tutorial Proposals</s> (closed)</a></li>
+
                                  </ul>
                            </li>
                                     <li>
