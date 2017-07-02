@@ -85,6 +85,7 @@
  								 <li><a href="call-consolidated.html">Consolidated Open Calls</a></li>
 
                                             <li><a href="call-for-industry-track-paper.html">Call for Industry Track Papers</a></li>
+                                            <li><a href="workshops.html">Call for Workshop Papers</a></li>
                                             <li><a href="call-for-doctoral-symposium-papers.html">Call for Doctoral Symposium Papers</a></li>
                                             <li><a href="call-for-demos-and-posters.html">Call for Demos  and Posters</a></li>
 
