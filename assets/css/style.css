@@ -4583,6 +4583,24 @@ ul.topics-type-list li:before {
   top:.1em; /* set the vertical position of the bullet if necessary. Make sure to use em or % */
 }
 
+ul.tut-list {
+  margin-left: 1.2em;
+}
+
+ul.tut-list > li {
+  color:black; /* set color of list item to a dark gray */
+  list-style:decimal; /* if you’re not already using a reset */
+  padding: 0.1em;
+}
+
+ul.tut-list li:before {
+  color:black; /* set color to red */
+  font-size:1.5em; /* set the font-size of the bullet if necessary. Make sure to use em or %*/
+  padding-right:.25em; /* give the bullet some padding from the text Make sure to use em*/
+  position:relative;
+  top:.1em; /* set the vertical position of the bullet if necessary. Make sure to use em or % */
+}
+
 .no-underline {
   background-color: transparent !important;
 }
