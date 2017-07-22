@@ -228,13 +228,13 @@ a.twitter-timeline:focus {
 }
 
 .tutorial_entry {
+  cursor: pointer;
   border: 0;
   background: none;
   margin-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-bottom: 0;
-  cursor: pointer;
 }
 
 #where-action {
