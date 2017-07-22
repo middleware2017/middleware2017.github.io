@@ -227,6 +227,17 @@ a.twitter-timeline:focus {
   padding-bottom: 0;
 }
 
+.tutorial_entry {
+  border: 0;
+  background: none;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  cursor: hand;
+  cursor: pointer;
+}
+
 #where-action {
   background: #ede8e9 ;
   color: #4d2227;

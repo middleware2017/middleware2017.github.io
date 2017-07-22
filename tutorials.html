@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html>
-    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-    <!-- /Added by HTTrack -->
-    <head>
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-        <link href="assets/css/font-awesome.css" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" type="text/css">
-        <link rel="stylesheet" href="assets/css/selectize.css" type="text/css">
-        <link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css">
-        <link rel="stylesheet" href="assets/css/vanillabox/vanillabox.css" type="text/css">
-        <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-        <link rel="shortcut icon" href="assets/myfavicon.ico" type="image/x-icon">
-        <link rel="icon" href="assets/myfavicon.ico" type="image/x-icon">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href="assets/css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/selectize.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/vanillabox/vanillabox.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="shortcut icon" href="assets/myfavicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/myfavicon.ico" type="image/x-icon">
+    <script type="text/javascript">
+        function toggle_div(el) {
+            // alert(el.getElementsByTagName('div')[0].style.display=='none'); 
+            if (el.getElementsByTagName('div')[0].style.display=='none'){
+                el.getElementsByTagName('div')[0].style.display = "block"
+            } else{
+                el.getElementsByTagName('div')[0].style.display = "none";
+            }
+     }
+    </script>
 
-        <script language="JavaScript1.2">
+    <script language="JavaScript1.2">
             var howOften = 4; //number often in seconds to rotate
             var current = 0; //start the counter at 0
             var ns6 = document.getElementById&&!document.all; //detect netscape 6
@@ -43,37 +53,37 @@
                         placeholderdiv.innerHTML=items[current];
                         current = (current==items.length-1) ? 0 : current + 1; //increment or reset
                         setTimeout("rotater()",howOften*1000);
-            }
-            window.onload=rotater;
+                    }
+                    window.onload=rotater;
 //-->
 </script>
 
 
 
 
-        <title>2017 ACM/IFIP/USENIX International Middleware Conference</title>
-    </head>
-    <body class="page-sub-page page-microsite">
-        <!-- Wrapper -->
-        <div class="wrapper">
-            <!-- Header -->
-            <div class="navigation-wrapper">
-                <div class="primary-navigation-wrapper">
-                    <header class="navbar" id="top" role="banner">
-                        <div class="container">
-                            <div class="navbar-header">
-                                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+<title>2017 ACM/IFIP/USENIX International Middleware Conference</title>
+</head>
+<body class="page-sub-page page-microsite">
+    <!-- Wrapper -->
+    <div class="wrapper">
+        <!-- Header -->
+        <div class="navigation-wrapper">
+            <div class="primary-navigation-wrapper">
+                <header class="navbar" id="top" role="banner">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
                                 <span class="sr-only">Toggle navigation</span>
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
-                                </button>
-                            </div>
-                            <nav class="collapse navbar-collapse bs-navbar-collapse navbar-left" role="navigation">
-                                <ul class="nav navbar-nav">
-                                    <li class="active">
-                                        <a href="index.html">Home</a>
-                                    </li>
+                            </button>
+                        </div>
+                        <nav class="collapse navbar-collapse bs-navbar-collapse navbar-left" role="navigation">
+                            <ul class="nav navbar-nav">
+                                <li class="active">
+                                    <a href="index.html">Home</a>
+                                </li>
 <!--                                    <li>
                                         <a href="#" class="has-child no-link">Participation</a>
                                         <ul class="list-unstyled child-navigation">
@@ -106,23 +116,23 @@
                                             <li><a href="program-committee.php">Program Committee</a></li>
                                         </ul>
                                     </li>
-					
-				   <li>
+
+                                    <li>
                                         <a href="#" class="has-child no-link">Calls</a>
                                         <ul class="list-unstyled child-navigation">
- 								 <li><a href="call-consolidated.html">Consolidated Open Calls</a></li>
+                                          <li><a href="call-consolidated.html">Consolidated Open Calls</a></li>
 
-                                            <li><a href="call-for-industry-track-paper.html">Call for Industry Track Papers</a></li>
-                                            <li><a href="workshops.html">Call for Workshop Papers</a></li>
-                                            <li><a href="call-for-doctoral-symposium-papers.html">Call for Doctoral Symposium Papers</a></li>
-                                            <li><a href="call-for-demos-and-posters.html">Call for Demos  and Posters</a></li>
+                                          <li><a href="call-for-industry-track-paper.html">Call for Industry Track Papers</a></li>
+                                          <li><a href="workshops.html">Call for Workshop Papers</a></li>
+                                          <li><a href="call-for-doctoral-symposium-papers.html">Call for Doctoral Symposium Papers</a></li>
+                                          <li><a href="call-for-demos-and-posters.html">Call for Demos  and Posters</a></li>
 
-                                            <li><a href="call-for-regular-papers.html"><s>Call for Regular Papers</s> (closed)</a></li>
-                                            <li><a href="call-for-workshop.html"><s>Call for Workshop Proposals</s> (closed)</a></li>
-                                            <li><a href="call-for-tutorial.html"><s>Call for Tutorial Proposals</s> (closed)</a></li>
+                                          <li><a href="call-for-regular-papers.html"><s>Call for Regular Papers</s> (closed)</a></li>
+                                          <li><a href="call-for-workshop.html"><s>Call for Workshop Proposals</s> (closed)</a></li>
+                                          <li><a href="call-for-tutorial.html"><s>Call for Tutorial Proposals</s> (closed)</a></li>
 
-                                        </ul>
-                                    </li>
+                                      </ul>
+                                  </li>
 
 <!--                                    <li>
                                         <a href="#" class="has-child no-link">Sponsorship</a>
@@ -131,273 +141,271 @@
                                             <li><a href="becoming-sponsor.html">Becoming a sponsor</a></li>
                                         </ul>
                                     </li>
- -->
-                                    <li>
-                                        <a href="#" class="has-child no-link">Venue</a>
-                                        <ul class="list-unstyled child-navigation">
-                                            <li><a href="about-lv.html">About Las Vegas</a></li>
-                                            <li><a href="travel.html">Travel</a></li>
-                                            <li><a href="conference-location.html">Conference Location</a></li>
-                                        </ul>
-                                    </li> 
+                                -->
+                                <li>
+                                    <a href="#" class="has-child no-link">Venue</a>
+                                    <ul class="list-unstyled child-navigation">
+                                        <li><a href="about-lv.html">About Las Vegas</a></li>
+                                        <li><a href="travel.html">Travel</a></li>
+                                        <li><a href="conference-location.html">Conference Location</a></li>
+                                    </ul>
+                                </li> 
 
-                                    <li>
-                                        <a href="#" class="has-child no-link">Program</a>
-                                        <ul class="list-unstyled child-navigation">
-                                            <li><a href="keynotes.html">Keynotes</a></li>
-                                            <li><a href="tutorials.html">Tutorials</a></li>
-								 <li><a href="workshops.html">Workshops</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </nav>
-                            <!-- /.navbar collapse-->
-                            <div class="social">
+                                <li>
+                                    <a href="#" class="has-child no-link">Program</a>
+                                    <ul class="list-unstyled child-navigation">
+                                        <li><a href="keynotes.html">Keynotes</a></li>
+                                        <li><a href="tutorials.html">Tutorials</a></li>
+                                        <li><a href="workshops.html">Workshops</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                        <!-- /.navbar collapse-->
+                        <div class="social">
 <!--                                <div class="icons">
-                                </div> -->
-                                <!-- /.icons -->
-                            </div>
-                        </div>
-                        <!-- /.container -->
-                    </header>
-                    <!-- /.navbar -->
-                </div>
-                <!-- /.primary-navigation -->
-            </div>
-            <!-- end Header -->
-            <div id="page-content">
-                <!-- Slider -->
-                <div id="slider">
-                    <div class="container">
-                        <div class="slider-wrapper">
-                            <div class="row">
-                                <div class="col-md-9 col-sm-12">
-                                    <div class="row">
-                                        <div class="image-carousel">
-                                            <div class="slide">
-                                                <div class="image-carousel-slide" id="rotating_pics"></div>
-                                            </div>
-                                            <!-- /.slide -->
-                                        </div>
-                                        <!-- /.image-carousel -->
-                                    </div>
-                                    <!-- /.row -->
-                                </div>
-                                <!-- /.col-md-9 -->
-                                <div class="col-md-3 col-sm-12">
-                                    <header>
-                                        <h2>ACM/IFIP/USENIX Middleware 2017</h2>
-                                        <h3 style="color:white">Las Vegas, Nevada</h3>
-                                        <h3 style="color:white">Dec 11-15, 2017</h3>
-                                    </header>
-                                </div>
-                                <!-- /.col-md-3 -->
-                            </div>
-                            <!-- /.row -->
-                        </div>
-                        <!-- /.slider-wrapper -->
-                    </div>
-                    <!-- /.container -->
-                </div>
-                <!-- end Slider -->
-                <!-- Content -->
-                <div class="block">
-                    <div class="container">
+</div> -->
+<!-- /.icons -->
+</div>
+</div>
+<!-- /.container -->
+</header>
+<!-- /.navbar -->
+</div>
+<!-- /.primary-navigation -->
+</div>
+<!-- end Header -->
+<div id="page-content">
+    <!-- Slider -->
+    <div id="slider">
+        <div class="container">
+            <div class="slider-wrapper">
+                <div class="row">
+                    <div class="col-md-9 col-sm-12">
                         <div class="row">
-                            <div class="col-md-10">
-                                <section id="main-content">
-                                    <div class="section-content">
-                                        <div class="col-md-10">
-                                            <header>
-                                                <h2>Tutorials</h2>
-                                            </header>
-<p>
-Middleware 2017 will feature four exciting tutorials! These will be held before the main conference on December 11<sup>th</sup> (Monday) and 12<sup>th</sup> (Tuesday). The exact schedule will be updated soon.</p>
-
-
-
-
-
-
-
-<div class="sponsors">
-<h3 class="organization"><strong>High Performance Network Middleware with Intel DPDK and OpenNetVM</strong></h3>
-<h4><a href="http://faculty.cs.gwu.edu/~timwood/wiki/doku.php">Tim Wood</a>, George Washington University</h4>
-
-                                              <ul class="anouncements">
-<li><strong>Abstract:</strong> Traditional computer networks have been built from hardware middleboxes such as routers, firewalls, and switches. These devices can quickly process network packets, but they provide very little programmability since they are based on single-purpose hardware. Recent advances in Network Function Virtualization (NFV) allow these network components to instead be run as software on commodity servers.  NFV allows high performance packet processing software to be dynamically deployed and easily adjusted due to changes in network workloads. This tutorial will provide a hands-on introduction to NFV and enabling technologies such as Intel's Dataplane Development Kit (DPDK) and the OpenNetVM NFV platform. Participants will learn how to deploy network services that intercept, monitor, and transform data as it flows through the network, opening new possibilities in middleware research.</li><br>
-
-<li><strong>What to expect:</strong> 
-<ul class="tut-list">
-<li>Intro to Network Function Virtualization (NFV) and Software Defined Networking (SDN)</li>
-<li>High Performance network software with Intel DPDK and kernel bypass</li>
-<li>Hands-on: Intro to DPDK</li>
-<li>Composing network functions into chains with OpenNetVM</li>
-<li>Hands-on: Build a load balancer</li>
-</ul>
-</li><br>
-
-<li><strong>Who can attend:</strong> 
-This tutorial is open to anyone curious about how emerging technologies will allow middleware research to extend across both network and server infrastructure.  Attendees should have basic C programming and linux shell experience. No prior knowledge of NFV or SDN is needed.  The tutorial will give an introduction to developing high performance network middleware, and will include a hands-on component where participants build a middlebox such as a network load balancer and test it on the CloudLab.us testbed.  Attendees will need a laptop with an SSH client.
-</li><br>
-
-<li><strong>Speaker bio:</strong> 
-<p class="text-justify"><img src="assets/img/tim.jpg" alt="Timothy Wood" style="float: left; margin-right: 1em; margin-top: .5em; width: 150px; height: 180px;"/>Timothy Wood is an associate professor in the Department of Computer Science at George Washington University. Before joining GW, he received a doctoral degree in computer science from the University of Massachusetts Amherst and a bachelor's degree in electrical and computer engineering from Rutgers University. His research studies how new virtualization technologies can provide application agnostic tools that improve performance, efficiency, and reliability in cloud computing data centers and software-based networks.  His PhD thesis received the UMass CS Outstanding Dissertation Award, his students have voted him CS Professor of the Year, and he has won three best paper awards, a Google Faculty Research Award, and an NSF Career award.
-</p>
-</li>
-
-</ul>
-</div>
-<br>
-
-
-
-
-<div class="sponsors">
-<h3 class="organization"><strong>Istio Service mesh for more robust, secure and easy to manage microservices</strong></h3>
-<h4>
-<p>
-<a href="http://researcher.watson.ibm.com/researcher/view.php?person=us-pnagpurkar">Priya Nagpurkar</a>, IBM T. J. Watson Research Center
-<br>
-<a href="http://researcher.watson.ibm.com/researcher/view.php?person=us-fabolive">Fabio Oliveira</a>, IBM T. J. Watson Research Center
-</p>
-</h4>
-
-                                              <ul class="anouncements">
-<li><strong>Abstract:</strong> Writing reliable, loosely coupled, production-grade applications based on microservices can be challenging. As monolithic applications are decomposed into microservices, software teams have to worry about the challenges inherent in integrating services in distributed systems: they must account for service discovery, load balancing, fault tolerance, end-to-end monitoring, dynamic routing for feature experimentation, and compliance and security.Inconsistent attempts at solving these challenges, cobbled together from libraries, scripts and Stack Overflow snippets leads to solutions that vary wildly across languages and runtimes, and have poor observability.<br><br>
-
-Google, IBM and Lyft joined forces to create the microservice mesh called Istio with the goal of providing a reliable substrate for microservice development and maintenance. Istio brings SDN concepts to microservices by transparently injecting a layer 7 proxy (data plane)  between a service and the network and introducing a control plane to define and enforce policies. Istio provides fine grained control and observability while at the same time freeing up developers from the complexity of building distributed systems.<br><br>
-
-This tutorial will start with a quick overview of common best practices to build robust microservices, their embodiment in popular software components and finally the approach taken by istio. We will then introduce key istio concepts, discuss real-world use cases, and illustrate how istio enables traffic management, observability, policy enforcement through a hands-on session. We will end with a discussion on promising research directions like automated resiliency testing and tools and techniques for advanced DevOps.</li><br>
-
-<li><strong>Who can attend:</strong> 
-Some familiarity with microservices, usage of docker containers, kubernetes. Preferably an account with <a href="http://www.ibm.com/cloud-computing/bluemix/containers">IBM Bluemix Kubernetes cluster</a> if they want to play along with the system in real time.</li><br>
-
-<li><strong>References:</strong> 
-<a href="https://istio.io/blog/istio-service-mesh-for-microservices.html">Key blog post</a> related to Istio that describes the core concepts.</li><br>
-
-
-<li><strong>Speaker bios:</strong>
-<p class="text-justify"><img src="assets/img/priya.png" alt="Priya Nagpurkar" style="float: left; margin-right: 1em; margin-top: 0.5em; margin-bottom: 3.5em; width: 150px;"/>Priya is a research staff member and manager at I.B.M.'s T.J. Watson Research Center. She currently manages the Cloud DevOps and Cognitive Platform group in the Cloud Platform, Programming Models and Runtimes department. Priya and her group work on enabling easy creation and management of cloud native services. Current areas of work include cloud platform services and tools to enable advanced DevOps for cloud services like canary-, A/B-, and resiliency testing. Priya's research interests include debugging/problem determination, and performance analysis and optimization, especially for distributed systems, and more recently building high performance, elastic middleware for deep learning on the cloud. Priya received a PhD degree in Computer Science from the University of California, Santa Barbara in Fall 2007.
-</p>
-
-<p class="text-justify"><img src="assets/img/fabio.jpg" alt="Fabio Oliveira" style="float: left; margin-right: 1em; margin-top: 0.0em; width: 150px;"/>Fabio Oliveira is a Research Staff Member at the IBM T. J. Watson Research Center. He received a Ph.D. degree in Computer Science from Rutgers University in 2010. His research interests include cloud computing, systems management, distributed systems, and operational and DevOps analytics. His current research focuses on deriving meaningful insights from large volumes of metrics and monitoring data generated by complex microservice architectures.
-</p>
-
-</li>
-
-</ul>
-</div>
-<br>
-
-
-
-
-
-
-
-<div class="sponsors">
-<h3 class="organization"><strong>SMACK stack 101: Building Fast Data stacks</strong></h3>
-<h4><a href="https://www.linkedin.com/in/j%C3%B6rg-schad-945345a9">J&ouml;rg Schad</a>, Mesosphere</h4>
-
-                                              <ul class="anouncements">
-<li><strong>Abstract:</strong> In this workshop, the participants will build their own microservice application and connect it to a Fast Data Pipeline consisting of Apache Spark, Cassandra, and Kafka. This pipeline will then deployed on top of DC/OS. We will also look into the operational aspects of updating, scaling, and monitoring such data pipelines.</li>
-<br>
-
-<li><strong>What to expect:</strong> 
-<ul class="tut-list">
-<li>Best practices for setting up Fast Data Pipelines</li>
-<li>The different components of the SMACK stack and respective alternatives</li>
-<li>How to deploy such stack in an efficient and fault-tolerant way</li>
-<li>How to keep such stacks running:</li>
-<ul>
-<li>Monitoring</li>
-<li>Upgrades</li>
-<li>Debugging</li>
-</ul>
-</ul>
-</li><br>
-
-<li><strong>Who can attend:</strong> 
-Some knowledge of the big data ecosystem is recommended but not required. We will provide access to DC/OS cluster, but each participant should bring their own laptop with some way of sshing into a remote linux system.  Apache Mesos and DC/OS are used by companies such as Twitter, Apple, Netflix, or Verizon to build their cluster infrastructure on top. Fast data stack similar to the ones we will build in this workshop are used for example by ESRI or Uber.</li><br>
-
-<li><strong>Speaker bio:</strong> 
-<p class="text-justify"><img src="assets/img/joerg.jpg" alt="J&ouml;rg Schad" style="float: left; margin-right: 1em; margin-bottom: 0.0em; width: 150px;"/>J&ouml;rg is a software engineer at Mesosphere in Hamburg. In his previous life he implemented distributed and in memory databases and conducted research in the Hadoop and Cloud area. His speaking experience includes various Meetups, international conferences, and lecture halls.
-</p>
-</li>
-
-
-</ul>
-</div>
-<br>
-
-
-
-
-
-
-
-<div class="sponsors">
-<h3 class="organization"><strong>Trusted Execution of Software using Intel SGX</strong></h3>
-<h4>
-<p>
-<a href="https://tu-dresden.de/ing/informatik/sya/se/die-professur/inhaber-in">Christof Fetzer</a>, TU Dresden, Germany
-<br>
-<a href="http://members.unine.ch/pascal.felber">Pascal Felber</a>, University of Neuchatel, Switzerland
-<br>
-<a href="https://www.ibr.cs.tu-bs.de/users/kapitza/">Ruediger Kapitza</a>, TU Braunschweig, Germany
-<br>
-<a href="https://www.doc.ic.ac.uk/~prp/">Peter Pietzuch</a>, Imperial College London, United Kingdom
-</p>
-</h4>
-
-                                              <ul class="anouncements">
-<li><strong>Abstract:</strong> In this tutorial, we will provide an overview of the recent support in Intel CPU for trusted execution of security-sensitive software using Software Guard Extensions (SGX). We will introduce the key concepts behind trusted execution and Intel SGX, and discuss the required systems/middleware support to create trustworthy applications in otherwise untrusted environments. Our goal is to convey the opportunities and challenges that the wide-spread availability of trusted execution features and SGX will bring, and how it will affect the middleware software stack found in today's data centres and cloud environments.<br><br>
-
-Trusted hardware features have recently recently hit the mainstream through their inclusion in commodity Intel CPUs as part of the SGX extensions to the x86 instruction set architecture. Both in research and industry, we therefore witness a rising interest in how hardware trust mechanisms such as Intel SGX can be used to engineer the next generation of trustworthy cloud applications.</li>
-<br>
-
-<li><strong>What to expect:</strong> 
-The tutorial will be structured around lectures on particular topics related to trusted hardware, potentially with some hands-on sessions on the use of Intel SGX.</li><br>
-
-<li><strong>Speaker bio:</strong> TBA.</li>
-
-</ul>
-</div>
-<br>
-
-
-
-
-
-
-
-
-
-
-
-                                            
-                                        </div>
-
-                                    </div>
-                                    <!-- /.section-content -->
-                                </section>
-                                <!-- /.main-content -->
+                            <div class="image-carousel">
+                                <div class="slide">
+                                    <div class="image-carousel-slide" id="rotating_pics"></div>
+                                </div>
+                                <!-- /.slide -->
                             </div>
-                            <!-- /.col-md-6 -->
-                            
+                            <!-- /.image-carousel -->
                         </div>
                         <!-- /.row -->
                     </div>
-                    <!-- /.container -->
+                    <!-- /.col-md-9 -->
+                    <div class="col-md-3 col-sm-12">
+                        <header>
+                            <h2>ACM/IFIP/USENIX Middleware 2017</h2>
+                            <h3 style="color:white">Las Vegas, Nevada</h3>
+                            <h3 style="color:white">Dec 11-15, 2017</h3>
+                        </header>
+                    </div>
+                    <!-- /.col-md-3 -->
                 </div>
-                <!-- end Content -->
+                <!-- /.row -->
             </div>
-            <!-- Footer -->
-            <footer id="page-footer">
-                <section id="footer-top">
-                    <div class="container">
-                        <div class="footer-inner">
+            <!-- /.slider-wrapper -->
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- end Slider -->
+    <!-- Content -->
+    <div class="block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10">
+                    <section id="main-content">
+                        <div class="section-content">
+                            <div class="col-md-10">
+                                <header>
+                                    <h2>Tutorials</h2>
+                                </header>
+                                <p>
+                                    Middleware 2017 will feature four exciting tutorials! These will be held before the main conference on December 11<sup>th</sup> (Monday) and 12<sup>th</sup> (Tuesday). The exact schedule will be updated soon.</p>
+                                    
+                                    <div class="tutorial_entry" onclick="toggle_div(this);">
+                                        <h3 class="organization"><strong>High Performance Network Middleware with Intel DPDK and OpenNetVM</strong></h3>
+                                        <h4><a href="http://faculty.cs.gwu.edu/~timwood/wiki/doku.php">Tim Wood</a>, George Washington University</h4>
+                                        <div style="display:none;">
+                                        <ul class="anouncements">
+                                            <li><strong>Abstract:</strong> Traditional computer networks have been built from hardware middleboxes such as routers, firewalls, and switches. These devices can quickly process network packets, but they provide very little programmability since they are based on single-purpose hardware. Recent advances in Network Function Virtualization (NFV) allow these network components to instead be run as software on commodity servers.  NFV allows high performance packet processing software to be dynamically deployed and easily adjusted due to changes in network workloads. This tutorial will provide a hands-on introduction to NFV and enabling technologies such as Intel's Dataplane Development Kit (DPDK) and the OpenNetVM NFV platform. Participants will learn how to deploy network services that intercept, monitor, and transform data as it flows through the network, opening new possibilities in middleware research.</li><br>
+
+                                            <li><strong>What to expect:</strong> 
+                                                <ul class="tut-list">
+                                                    <li>Intro to Network Function Virtualization (NFV) and Software Defined Networking (SDN)</li>
+                                                    <li>High Performance network software with Intel DPDK and kernel bypass</li>
+                                                    <li>Hands-on: Intro to DPDK</li>
+                                                    <li>Composing network functions into chains with OpenNetVM</li>
+                                                    <li>Hands-on: Build a load balancer</li>
+                                                </ul>
+                                            </li><br>
+
+                                            <li><strong>Who can attend:</strong> 
+                                                This tutorial is open to anyone curious about how emerging technologies will allow middleware research to extend across both network and server infrastructure.  Attendees should have basic C programming and linux shell experience. No prior knowledge of NFV or SDN is needed.  The tutorial will give an introduction to developing high performance network middleware, and will include a hands-on component where participants build a middlebox such as a network load balancer and test it on the CloudLab.us testbed.  Attendees will need a laptop with an SSH client.
+                                            </li><br>
+
+                                            <li><strong>Speaker bio:</strong> 
+                                                <p class="text-justify"><img src="assets/img/tim.jpg" alt="Timothy Wood" style="float: left; margin-right: 1em; margin-top: .5em; width: 150px; height: 180px;"/>Timothy Wood is an associate professor in the Department of Computer Science at George Washington University. Before joining GW, he received a doctoral degree in computer science from the University of Massachusetts Amherst and a bachelor's degree in electrical and computer engineering from Rutgers University. His research studies how new virtualization technologies can provide application agnostic tools that improve performance, efficiency, and reliability in cloud computing data centers and software-based networks.  His PhD thesis received the UMass CS Outstanding Dissertation Award, his students have voted him CS Professor of the Year, and he has won three best paper awards, a Google Faculty Research Award, and an NSF Career award.
+                                                </p>
+                                            </li>
+
+                                        </ul>
+                                        </div>
+                                    </div>
+                                    <br>
+
+
+
+
+                                    <div class="tutorial_entry" onclick="toggle_div(this);">
+                                        <h3 class="organization"><strong>Istio Service mesh for more robust, secure and easy to manage microservices</strong></h3>
+                                        <h4>
+                                            <p>
+                                                <a href="http://researcher.watson.ibm.com/researcher/view.php?person=us-pnagpurkar">Priya Nagpurkar</a>, IBM T. J. Watson Research Center
+                                                <br>
+                                                <a href="http://researcher.watson.ibm.com/researcher/view.php?person=us-fabolive">Fabio Oliveira</a>, IBM T. J. Watson Research Center
+                                            </p>
+                                        </h4>
+                                        <div style="display:none;">
+                                        <ul class="anouncements">
+                                            <li><strong>Abstract:</strong> Writing reliable, loosely coupled, production-grade applications based on microservices can be challenging. As monolithic applications are decomposed into microservices, software teams have to worry about the challenges inherent in integrating services in distributed systems: they must account for service discovery, load balancing, fault tolerance, end-to-end monitoring, dynamic routing for feature experimentation, and compliance and security.Inconsistent attempts at solving these challenges, cobbled together from libraries, scripts and Stack Overflow snippets leads to solutions that vary wildly across languages and runtimes, and have poor observability.<br><br>
+
+                                                Google, IBM and Lyft joined forces to create the microservice mesh called Istio with the goal of providing a reliable substrate for microservice development and maintenance. Istio brings SDN concepts to microservices by transparently injecting a layer 7 proxy (data plane)  between a service and the network and introducing a control plane to define and enforce policies. Istio provides fine grained control and observability while at the same time freeing up developers from the complexity of building distributed systems.<br><br>
+
+                                                This tutorial will start with a quick overview of common best practices to build robust microservices, their embodiment in popular software components and finally the approach taken by istio. We will then introduce key istio concepts, discuss real-world use cases, and illustrate how istio enables traffic management, observability, policy enforcement through a hands-on session. We will end with a discussion on promising research directions like automated resiliency testing and tools and techniques for advanced DevOps.</li><br>
+
+                                                <li><strong>Who can attend:</strong> 
+                                                    Some familiarity with microservices, usage of docker containers, kubernetes. Preferably an account with <a href="http://www.ibm.com/cloud-computing/bluemix/containers">IBM Bluemix Kubernetes cluster</a> if they want to play along with the system in real time.</li><br>
+
+                                                    <li><strong>References:</strong> 
+                                                        <a href="https://istio.io/blog/istio-service-mesh-for-microservices.html">Key blog post</a> related to Istio that describes the core concepts.</li><br>
+
+
+                                                        <li><strong>Speaker bios:</strong>
+                                                            <p class="text-justify"><img src="assets/img/priya.png" alt="Priya Nagpurkar" style="float: left; margin-right: 1em; margin-top: 0.5em; margin-bottom: 3.5em; width: 150px;"/>Priya is a research staff member and manager at I.B.M.'s T.J. Watson Research Center. She currently manages the Cloud DevOps and Cognitive Platform group in the Cloud Platform, Programming Models and Runtimes department. Priya and her group work on enabling easy creation and management of cloud native services. Current areas of work include cloud platform services and tools to enable advanced DevOps for cloud services like canary-, A/B-, and resiliency testing. Priya's research interests include debugging/problem determination, and performance analysis and optimization, especially for distributed systems, and more recently building high performance, elastic middleware for deep learning on the cloud. Priya received a PhD degree in Computer Science from the University of California, Santa Barbara in Fall 2007.
+                                                            </p>
+
+                                                            <p class="text-justify"><img src="assets/img/fabio.jpg" alt="Fabio Oliveira" style="float: left; margin-right: 1em; margin-top: 0.0em; width: 150px;"/>Fabio Oliveira is a Research Staff Member at the IBM T. J. Watson Research Center. He received a Ph.D. degree in Computer Science from Rutgers University in 2010. His research interests include cloud computing, systems management, distributed systems, and operational and DevOps analytics. His current research focuses on deriving meaningful insights from large volumes of metrics and monitoring data generated by complex microservice architectures.
+                                                            </p>
+
+                                                        </li>
+
+                                                    </ul>
+                                                    </div>
+                                                </div>
+                                                <br>
+
+
+
+
+
+
+
+                                                <div class="tutorial_entry" onclick="toggle_div(this);">
+                                                    <h3 class="organization"><strong>SMACK stack 101: Building Fast Data stacks</strong></h3>
+                                                    <h4><a href="https://www.linkedin.com/in/j%C3%B6rg-schad-945345a9">J&ouml;rg Schad</a>, Mesosphere</h4>
+                                                    <div style="display:none;">
+                                                    <ul class="anouncements">
+                                                        <li><strong>Abstract:</strong> In this workshop, the participants will build their own microservice application and connect it to a Fast Data Pipeline consisting of Apache Spark, Cassandra, and Kafka. This pipeline will then deployed on top of DC/OS. We will also look into the operational aspects of updating, scaling, and monitoring such data pipelines.</li>
+                                                        <br>
+
+                                                        <li><strong>What to expect:</strong> 
+                                                            <ul class="tut-list">
+                                                                <li>Best practices for setting up Fast Data Pipelines</li>
+                                                                <li>The different components of the SMACK stack and respective alternatives</li>
+                                                                <li>How to deploy such stack in an efficient and fault-tolerant way</li>
+                                                                <li>How to keep such stacks running:</li>
+                                                                <ul>
+                                                                    <li>Monitoring</li>
+                                                                    <li>Upgrades</li>
+                                                                    <li>Debugging</li>
+                                                                </ul>
+                                                            </ul>
+                                                        </li><br>
+
+                                                        <li><strong>Who can attend:</strong> 
+                                                            Some knowledge of the big data ecosystem is recommended but not required. We will provide access to DC/OS cluster, but each participant should bring their own laptop with some way of sshing into a remote linux system.  Apache Mesos and DC/OS are used by companies such as Twitter, Apple, Netflix, or Verizon to build their cluster infrastructure on top. Fast data stack similar to the ones we will build in this workshop are used for example by ESRI or Uber.</li><br>
+
+                                                            <li><strong>Speaker bio:</strong> 
+                                                                <p class="text-justify"><img src="assets/img/joerg.jpg" alt="J&ouml;rg Schad" style="float: left; margin-right: 1em; margin-bottom: 0.0em; width: 150px;"/>J&ouml;rg is a software engineer at Mesosphere in Hamburg. In his previous life he implemented distributed and in memory databases and conducted research in the Hadoop and Cloud area. His speaking experience includes various Meetups, international conferences, and lecture halls.
+                                                                </p>
+                                                            </li>
+
+
+                                                        </ul>
+                                                        </div>
+                                                    </div>
+                                                    <br>
+
+
+
+
+
+
+
+                                                    <div class="tutorial_entry" onclick="toggle_div(this);">
+                                                        <h3 class="organization"><strong>Trusted Execution of Software using Intel SGX</strong></h3>
+                                                        <h4>
+                                                            <p>
+                                                                <a href="https://tu-dresden.de/ing/informatik/sya/se/die-professur/inhaber-in">Christof Fetzer</a>, TU Dresden, Germany
+                                                                <br>
+                                                                <a href="http://members.unine.ch/pascal.felber">Pascal Felber</a>, University of Neuchatel, Switzerland
+                                                                <br>
+                                                                <a href="https://www.ibr.cs.tu-bs.de/users/kapitza/">Ruediger Kapitza</a>, TU Braunschweig, Germany
+                                                                <br>
+                                                                <a href="https://www.doc.ic.ac.uk/~prp/">Peter Pietzuch</a>, Imperial College London, United Kingdom
+                                                            </p>
+                                                        </h4>
+                                                        <div style="display:none;">
+                                                        <ul class="anouncements">
+                                                            <li><strong>Abstract:</strong> In this tutorial, we will provide an overview of the recent support in Intel CPU for trusted execution of security-sensitive software using Software Guard Extensions (SGX). We will introduce the key concepts behind trusted execution and Intel SGX, and discuss the required systems/middleware support to create trustworthy applications in otherwise untrusted environments. Our goal is to convey the opportunities and challenges that the wide-spread availability of trusted execution features and SGX will bring, and how it will affect the middleware software stack found in today's data centres and cloud environments.<br><br>
+
+                                                                Trusted hardware features have recently recently hit the mainstream through their inclusion in commodity Intel CPUs as part of the SGX extensions to the x86 instruction set architecture. Both in research and industry, we therefore witness a rising interest in how hardware trust mechanisms such as Intel SGX can be used to engineer the next generation of trustworthy cloud applications.</li>
+                                                                <br>
+
+                                                                <li><strong>What to expect:</strong> 
+                                                                    The tutorial will be structured around lectures on particular topics related to trusted hardware, potentially with some hands-on sessions on the use of Intel SGX.</li><br>
+
+                                                                    <li><strong>Speaker bio:</strong> TBA.</li>
+
+                                                                </ul>
+                                                                </div>
+                                                            </div>
+                                                            <br>
+
+
+
+
+
+
+
+
+
+
+
+
+                                                        </div>
+
+                                                    </div>
+                                                    <!-- /.section-content -->
+                                                </section>
+                                                <!-- /.main-content -->
+                                            </div>
+                                            <!-- /.col-md-6 -->
+
+                                        </div>
+                                        <!-- /.row -->
+                                    </div>
+                                    <!-- /.container -->
+                                </div>
+                                <!-- end Content -->
+                            </div>
+                            <!-- Footer -->
+                            <footer id="page-footer">
+                                <section id="footer-top">
+                                    <div class="container">
+                                        <div class="footer-inner">
 <!--                            <div class="footer-social">
                                 <figure>Follow us:</figure>
                                 <div class="icons">
@@ -447,4 +455,4 @@ The tutorial will be structured around lectures on particular topics related to 
         ga('send', 'pageview');
     </script> -->
 
-</html>
+    </html>
