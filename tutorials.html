@@ -18,11 +18,20 @@
         function toggle_div(el) {
             // alert(el.getElementsByTagName('div')[0].style.display=='none'); 
             if (el.getElementsByTagName('div')[0].style.display=='none'){
-                el.getElementsByTagName('div')[0].style.display = "block"
+                el.getElementsByTagName('div')[0].style.display = "block";
             } else{
                 el.getElementsByTagName('div')[0].style.display = "none";
             }
-     }
+        }
+        function expand_all() {
+            // alert(el.getElementsByTagName('div')[0].style.display=='none'); 
+            var tut_entries = document.getElementsByClassName("tutorial_entry");
+            var i;
+            for (i = 0; i < tut_entries.length; i++) {
+                // toggle_div(tut_entries[i]);
+                tut_entries[i].getElementsByTagName('div')[0].style.display="block";
+            }
+        }
     </script>
 
     <script language="JavaScript1.2">
@@ -221,8 +230,8 @@
                                 <header>
                                     <h2>Tutorials</h2>
                                 </header>
-                                <p>
-                                    Middleware 2017 will feature four exciting tutorials! These will be held before the main conference on December 11<sup>th</sup> (Monday) and 12<sup>th</sup> (Tuesday). The exact schedule will be updated soon.</p>
+                                    <p>
+                                    Middleware 2017 will feature four exciting tutorials! These will be held before the main conference on December 11<sup>th</sup> (Monday) and 12<sup>th</sup> (Tuesday). The exact schedule will be updated soon.</p> <a href="javascript:expand_all()"> Expand all. </a>
                                     
                                     <div class="tutorial_entry" onclick="toggle_div(this);">
                                         <h3 class="organization"><strong>High Performance Network Middleware with Intel DPDK and OpenNetVM</strong></h3>
