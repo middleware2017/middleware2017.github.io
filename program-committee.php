@@ -207,11 +207,13 @@
                                 </div>
                                 <!-- /#page-main -->
                             </div>
+                                        <div class="col-md-3">
+                                            <a class="twitter-timeline"
+                                              href="https://twitter.com/middleware2017" data-height="80em" data-chrome="transparent noborders">
+                                            Tweets by @middleware2017
+                                            </a>                                            
+                                        </div>
                             <!-- /.col-md-6 -->
-                            <!--SIDEBAR Content-->
-                            <div class="col-md-3">
-                            </div>
-                            <!-- /.col-md-3 -->
                         </div>
                         <!-- /.row -->
                     </div>
