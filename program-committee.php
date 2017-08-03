@@ -166,6 +166,9 @@
                             <div class="col-md-10">
                                 <div id="page-main">
                                     <section id="members">
+                              <header>
+                                 <h2>Program Committee</h2>
+                              </header>
                                         <section id="program-chairs">
                                             <header>
                                                 <h3 class="no-divider">Program Committee</h3>
@@ -204,6 +207,9 @@
                                             </tr>
                                         </table>
                                     </section>
+
+                           </section>
+
                                 </div>
                                 <!-- /#page-main -->
                             </div>
