@@ -163,12 +163,12 @@
                     <div class="container">
                         <div class="row">
                             <!--MAIN Content-->
-                            <div class="col-md-9">
+                            <div class="col-md-10">
                                 <div id="page-main">
                                     <section id="members">
                                         <section id="program-chairs">
                                             <header>
-                                                <h2 class="no-divider">Program Committee</h2>
+                                                <h3 class="no-divider">Program Committee</h3>
                                             </header>
                                             <?php
                                               $f = fopen("assets/mw_pc.csv", "r");
@@ -193,7 +193,7 @@
                                         </section>
                                         <!-- /#program-chairs -->
                                         <table width="70%">
-                                            <header><h2 class="no-divider">Program Chairs</h2></header>
+                                            <header><h3 class="no-divider">Program Chairs</h3></header>
                                             <tr>
                                                 <td><header><a target="_blank" href="http://www.cs.mcgill.ca/~kemme/">Bettina Kemme</a></header></td>
                                                 <td><figure>McGill University</figure></td>
@@ -207,7 +207,7 @@
                                 </div>
                                 <!-- /#page-main -->
                             </div>
-                                        <div class="col-md-3">
+                                        <div class="col-md-2">
                                             <a class="twitter-timeline"
                                               href="https://twitter.com/middleware2017" data-height="80em" data-chrome="transparent noborders">
                                             Tweets by @middleware2017
