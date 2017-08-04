@@ -195,17 +195,33 @@
                                             ?>
                                         </section>
                                         <!-- /#program-chairs -->
-                                        <table width="70%">
+
                                             <header><h3 class="no-divider">Program Chairs</h3></header>
-                                            <tr>
-                                                <td><header><a target="_blank" href="http://www.cs.mcgill.ca/~kemme/">Bettina Kemme</a></header></td>
-                                                <td><figure>McGill University</figure></td>
-                                            </tr>
-                                            <tr>
-                                                <td><header><a target="_blank" href="https://www.doc.ic.ac.uk/~prp/">Peter Pietzuch</a></header></td>
-                                                <td><figure>Imperial College London</figure></td>
-                                            </tr>
-                                        </table>
+<div class="row">
+                                    <div class="col-md-6">
+                                       <div class="author-block course-speaker" style="padding:0; margin:0; border-bottom:none;">
+                                          <article class="paragraph-wrapper" style="padding-left:0;">
+                                             <div class="inner">
+                                                <header><a target="_blank" href="http://www.cs.mcgill.ca/~kemme/">Bettina Kemme</a></header>
+                                                <figure>McGill University</figure>
+                                             </div>
+                                          </article>
+                                       </div>
+                                       <!-- /.author -->
+                                    </div>
+                                    <div class="col-md-6">
+                                       <div class="author-block course-speaker" style="padding:0; margin:0; border-bottom:none;">
+                                          <article class="paragraph-wrapper" style="padding-left:0;">
+                                             <div class="inner">
+                                                <header><a target="_blank" href="https://www.doc.ic.ac.uk/~prp/">Peter Pietzuch</a></header>
+                                                <figure>Imperial College London</figure>
+                                             </div>
+                                          </article>
+                                       </div>
+                                       <!-- /.author -->
+                                    </div>
+                                 </div>
+
                                     </section>
 
                            </section>
