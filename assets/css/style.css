@@ -8,7 +8,8 @@ th, td {
     padding: 8px;
 }
 
-tr:nth-child(even){background-color: #f2f2f2}
+/* alternate color in table
+tr:nth-child(even){background-color: #f2f2f2}*/
 
 #map {
         height: 400px;
@@ -18,6 +19,17 @@ tr:nth-child(even){background-color: #f2f2f2}
 #map_su {
         height: 400px;
         width: 100%;
+}
+
+/* overview.html Table properties */
+.quiet {
+  color: darkgrey;
+}
+
+.blank_row
+{
+    height: 10px !important; /* overwrites any other rules */
+    background-color: #EDEDED;
 }
 
 
