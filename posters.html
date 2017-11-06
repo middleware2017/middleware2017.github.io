@@ -12,6 +12,9 @@
         <link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css">
         <link rel="stylesheet" href="assets/css/vanillabox/vanillabox.css" type="text/css">
         <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/app.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/font-awesome.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/custom.css" type="text/css">
         <link rel="shortcut icon" href="assets/myfavicon.ico" type="image/x-icon">
         <link rel="icon" href="assets/myfavicon.ico" type="image/x-icon">
 
@@ -48,10 +51,44 @@
 //-->
 </script>
 
-
-
+   
 
         <title>2017 ACM/IFIP/USENIX International Middleware Conference</title>
+
+        <style>
+            
+            .title h2{
+                color: #000000;
+                border-bottom: 2px;
+                margin: 10px 0;
+                font-weight: 200;
+            }
+            .header h2{
+                color: #000000;
+            }
+            .item {
+                margin-bottom: 30px;
+            }
+            .item h2 {
+                color: #000000;
+            }
+            .item h3 {
+                color: #3399FF;
+                cursor: pointer;
+            }
+            .item h3:hover {
+                text-decoration: underline;
+            }
+            .item h5 {
+                color: #A9A9A9;
+                font-weight: 200;
+            }
+            .item p {
+                display: none;
+                padding: 15px;
+            }
+        </style>
+
     </head>
     <body class="page-sub-page page-microsite">
         <!-- Wrapper -->
@@ -223,22 +260,113 @@
                             <div class="col-md-10">
                                 <section id="main-content">
                                     <div class="section-content">
-                                            <header>
-                                                <h2>Demos & Posters</h2>
-                                            </header>
-                                            <p>TBD.
-</p>
-                                                
+                                            <div class="title">
+                                                <h2>Demos and Posters</h2>
+                                            <div class="title">
+                                                <p></p> <p></p>
+                                            <p>
+                                                The following posters and demos will be presented at the main conference on <a href="overview.html">Wednesday evening</a> (13th Dec). Click on each title below to see the abstract.
+                                            </p>
 
-                                    </div>
-                                    <!-- /.section-content -->
+                                            <div class="item">
+                                                <h3>Programming Application-defined Multipath TCP Schedulers</h3>
+                                                <h5>A. Fr&ouml;mmgen, B. Koldehofe</h5>
+                                                <p class="detail">
+                                                Multipath TCP is the de facto multipath protocol in today's Internet. In this demo, we show how the recently proposed ProgMP programming model for Multipath TCP scheduling enables application- and preference-aware Multipath TCP scheduling within the Multipath TCP Linux Kernel. We use ProgMP to systematically derive the specification of a novel scheduler which retains an application-specific acceptable round-trip time and subflow preferences. This scheduler only utilises non-preferred (e.g., metered cellular) subflows if all preferred subflows (e.g., WiFi) do not retain the acceptable upper round-trip time. We further evaluate this novel scheduler by executing the scheduler specification within the ProgMP runtime in the Multipath TCP Linux Kernel.
+                                                </p>
+                                            </div>
+
+
+                                            <div class="item">
+                                                <h3>HyperPubSub: a Decentralized, Permissioned, Publish/Subscribe Service using Blockchains</h3>
+                                                <h5>N. Zupan, K. Zhang, H. Jacobsen</h5>
+                                                <p class="detail">
+                                                    Since the introduction of Bitcoin in 2008, blockchain systems have evolved immensely in terms of performance and usability. There is a massive focus on building enterprise blockchain solutions, with providers such as IBM and Microsoft already providing Blockchain-as-a Service (BaaS). To facilitate the adoption of blockchain technologies across various business verticals, we argue that middleware plays an integral role in accelerating the development of automated business processes (i.e., smart contracts). We argue that decentralized messaging is a key requirement of many distributed applications and should be provided as a reusable blockchain middleware. Our system, called HyperPubSub, provides decentralized publish/subscribe messaging for a multi-federated, permissioned, environment. HyperPubSub provides secure and privacy-preserving messaging, which is audited using blockchains for validation and monetization purposes. We demonstrate our implementation using Kafka and Hyperledger.
+                                                </p>
+                                            </div>
+
+                                            <div class="item">
+                                                <h3>Combat State-Aware Interest Management for Online Games</h3>
+                                                <h5>J. Wang, K. Zhang, H. Jacobsen</h5>
+                                                <p class="detail">
+                                                    Massively multiplayer online role-playing games (MMORPGs) allow thousands of players to interact with each other in a large-scale virtual environment. Interest management is an important technique used to raise the scalability of a game by limiting the amount of information transmitted to the players according to their relevance. In this paper, we focus on the problem of performing interest management during combats, which are highly interactive and fast-paced events. We have developed a combat state-aware interest management (CSAIM) system which can dynamically adjust update rates based on the current game context, thereby maximizing the utility in the trade-off between consistency and performance. We have implemented CSAIM in MMOnkey, our MMORPG research framework. Our interactive demo client visualizes the interest area adjusted based on players actions.
+                                                </p>
+                                            </div>
+                                            <div class="item">
+                                                <h3>VIBES: Fast Blockchain Simulations for Large-scale Peer-to-Peer Networks</h3>
+                                                <h5>L. Stoykov, K. Zhang, H. Jacobsen</h5>
+                                                <p class="detail">
+                                                    Following the success of bitcoin and Ethereum, blockchains are now gaining widespread adoption in a wide variety of applications, using a diversity of distributed ledger systems with varying characteristics. Yet, beyond the original bitcoin protocol, the safety and reliability properties of such systems are not sufficiently analyzed. To better understand the behavior of these systems, we propose VIBES: a configurable blockchain simulator for large scale peer-to-peer networks. With VIBES, users can explore important characteristics and metrics of the network, reason about interactions between nodes, and compare different scenarios in an intuitive way. VIBES differentiates itself from previous works in its ability to simulate blockchain systems beyond bitcoin and its support for large-scale simulations with thousands of nodes
+                                                </p>
+                                            </div>
+                                            <div class="item">
+                                                <h3>A Software-defined Hybrid Cache with Reduced Energy</h3>
+                                                <h5>J. He, J. Callenes-Sloan</h5>
+                                                <p class="detail">
+                                                    Energy becomes an inevitable challenge when using a large die-stacking DRAM cache as part of memory. Emerging volatile STT-RAM can be integrated with DRAM as a software-managed hybrid cache to effectively reduce the static and dynamic energy of large cache, but there is extra refresh energy overhead. We observe that reducing the refresh rate of volatile STT-RAM will provide significant energy savings while introducing a small number of bit errors that can be easily tolerated by most error-resilient applications. Thus, we propose a quality-aware approximate die-stacking hybrid cache and develop a novel data allocation scheme. We also propose the online quality monitor and the light-weight check scheme for error recovery. The results show an average 91% reduction in volatile STT-RAM refresh energy with minimal loss in output quality.
+                                                </p>
+                                            </div>
+
+                                            <div class="item">
+                                                <h3>MoCA+: Incorporating User Modeling into Mobile Contextual Advertising</h3>
+                                                <h5>S. Park, J. Lee, S. Jun, K. Kim, S. Lee</h5>
+                                                <p class="detail">
+                                                    In-app advertising has become a significant source of revenue for mobile apps. Mobile contextual advertising is one of the recent approaches to improve the effectiveness of in-app advertising. In this demo, we present a novel mobile contextual advertising platform, called MoCA+, which incorporates user modeling into an existing mobile contextual advertising platform. It is designed to provide contextual in-app ads relevant to both user interest and an app page content to third-party apps through its well-defined APIs. To the best of our knowledge, this is one of few works to implement the mobile contextual advertising platform without resort to servers.
+                                                </p>
+                                            </div>
+
+
+                                            <div class="item">
+                                                <h3>Realizing an Elastic Memcached via Cached Data Migration</h3>
+                                                <h5>U. Hafeez, D. Male, S. Naeni, M. Wajahat, A. Gandhi</h5>
+                                                <p class="detail">
+                                                    A key functionality enabled by the pay-as-you-go model of cloud computing is elasticity -- the ability to quickly add and remove VMs from an application in response to changes in workload demand. However, not all applications are amenable to elasticity, e.g., stateful services such as Memcached. While scaling in, in a Memcached deployment, load on the database increases due to additional cache misses, resulting in high latencies. This paper investigates proactive data migration from retiring Memcached nodes to retained nodes to mitigate post-scaling performance loss. Our experimental results on OpenStack show that by carefully migrating hot data between Memcached nodes, we can exploit elasticity to significantly reduce rental costs while reducing the performance degradation over naive scaling by almost 50%.
+                                                </p>
+                                            </div>
+
+                                            <div class="item">
+                                                <h3>A Serverless Topic-Based and Content-Based Pub/Sub Broker</h3>
+                                                <h5>P. Nasirifard, A. Slominski, V. Muthusamy, V. Ishakian, H. Jacobsen</h5>
+                                                <p class="detail">
+                                                    Building scalable, highly available publish/subscribe (pub/sub) systems can require sophisticated algorithms and a tremendous amount of engineering effort. This paper demonstrates a way to build a pub/sub broker on top of the OpenWhisk serverless platform that performs topic-based and content-based matchings. This approach radically simplifies the design and significantly reduces the amount of code while still achieving scalability targets. Furthermore, we present a publisher/subscriber client application to interact with the broker as well as an evaluator application that enforces heavy workload on the broker to measure the scalability and latency of the pub/sub system and discover the potential bottlenecks.
+                                                </p>
+                                            </div>
+
+                                            <div class="item">
+                                                <h3>Improving Server Utilization via Resource-adaptive Batch VMs</h3>
+                                                <h5>S. Javadi, P. Banginwar, V. Chanana, R. Narvekar, M. Savita, A. Gandhi</h5>
+                                                <p class="detail">
+                                                   Cloud data centers often experience low resource utilization. To increase utilization, recent work has proposed running batch jobs next to customer VMs to leverage idle resources. However, a key challenge with this approach is the contention among VMs for underlying server resources. In this work, we propose a new class of batch VMs whose resource utilization can by dynamically regulated by the provider based on the resource requirements of colocated VMs to minimize performance interference. Experimental results on KVM hosts show that our batch VMs can increase resource utilization without affecting the performance of colocated latency-sensitive web workloads. 
+                                                </p>
+                                            </div>
+
+                                            <div class="item">
+                                                <h3>Abstractions for Supercomputing Platforms to Facilitate Consolidation of Services</h3>
+                                                <h5>S. Alam</h5>
+                                                <p class="detail">
+                                                    Supercomputing platforms have developed over the years to maximize performance and scalability and to minimize any abstractions that could result in slowdowns and performance variability. Large scale supercomputing systems traditionally tightly integrated hardware and software stacks, for instance, light weight operating systems, vertically integrated communication layers and tightly coupled parallel file systems. Consequently these environments do not lend themselves for portability expected for web and ISV applications as well as emerging data science workflows. This poster will present abstractions that are introduced in Piz Daint, a hybrid and heterogeneous Cray XC50 and XC40 platform with Nvidia P100 GPU devices, in order to enable Large Hadron Collider (LHC) computing grid workflows. This transition is completely transparent to the end users and existing workflows for experiments including ATLAS, CMS and LHCb. The technologies and solutions that have been exploited in creating abstractions include containerization, file system virtualization and other configuration changes. Incidentally, these abstractions have proven to be highly effective in leveraging execution of other complex workflows, for instance, Apache Spark, often with performance and productivity gains. Piz Daint hybrid and heterogeneous supercomputing platform has therefore enabled the Swiss National Supercomputing Centre (CSCS) in consolidating a range of services including computing, data analysis and visualization for its diverse and growing user communities.
+                                                </p>
+                                            </div> 
+                                            <div class="item">
+                                                <h3>Drowsy-DC, Data-center Power Management Inspired by Smartphones</h3>
+                                                <h5>M. Bacou, G. Todeschi, A. Tchana, D. Hagimont, B. Lepers, W. Zwaenepoel</h5>
+                                                <p class="detail">
+                                                    A lot of research work is put into reducing the power consumption of datacenters. Some works seek to improve the power efficiency of one server, but as of now the ideal state of power proportionality is only approached with a higher workload. Meanwhile, modern datacenters make use of the virtualization: the actual workload is materialized by virtual machines (VM). Thus, the problem shifts to consolidating VMs in order to increase the workload of a server. Roughly described, VM consolidation systems try to place as many VMs as possible, on as few servers as possible. Then, a server either gets a higher workload, bringing it closer to a state of energy proportionality; or hosts no VM and can be brought to sleep. However, industrial solutions are not very efficient, and in practice the number of VMs per server is increased by only 10%, with an effective workload rarely over 50%. This motivates research for alternative consolidation methods. We introduce Drowsy-DC, a new datacenter power manager that aims at creating situations where a server can be suspended even though it hosts VMs. Whenever such a VM needs to work, the suspended server is resumed. VMs are placed such that a host’s suspended time is maximized, and the overhead of resuming the host is minimized. The power management of each server is then similar to a smartphone, that spends most of the time in a low-power state until being sollicitated.
+                                                </p>
+                                            </div> 
+                                            <div class="item">
+                                                <h3>A Shared Multi-stakeholder Platform for IoT</h3>
+                                                <h5>D. Jonckers, A. Hovsepyan, W. Joosen</h5>
+                                                <p class="detail">
+                                                    The Internet of Things is connecting billions of devices and blurring the distinction between the physical and virtual world. However, to unlock the full potential and achieve economies-of-scale, focus should shift from IoT deployment aimed at a single use case or a single customer to a platform where multiple customers utilise a shared infrastructure provided by a distinct party. In this poster abstract, we describe the need for such a shared multi-stakeholder platform and the most challenging design requirements: virtualisation layer with resource abstraction and location-awareness, distributed access control, and support for the distributed application programming model. Furthermore, we propose an architecture and present a prototype of the platform.
+                                                </p>
+                                            </div> 
+                                        </div>
+
                                 </section>
                                 <!-- /.main-content -->
                             </div>
                             <!-- /.col-md-6 -->
-
-
-
 
                                         <div class="col-md-2">
                                             <a class="twitter-timeline"
@@ -301,6 +429,20 @@
     <script type="text/javascript" src="assets/js/retina-1.1.0.min.js"></script>
     <script type="text/javascript" src="assets/js/custom.js"></script>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+     <script
+          src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
+    <script>
+        $(".item h3 ").click(function() {
+            $(this).siblings(".detail").toggle();
+            //if you want few animation :)
+            //$(this).siblings(".detail").toggle("fast", "swing");          
+        });
+    </script>
+
+
 <!--    <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
