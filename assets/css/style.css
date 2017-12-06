@@ -37,18 +37,18 @@ tr:nth-child(even){background-color: #F9F3F4}
   font-size: 1.2em;
 }
 
-.social {
+.sociale {
   margin: 1em 0.1em;
   padding: 0.1em 0.5em;
   border: 0.2em solid #4d2227;
   box-shadow: 0 0.5em 0.5em #888888;
 }
 
-.social img {
+.sociale img {
   max-width: 100%;
 }
 
-.social p {
+.sociale p {
   margin: 0.6em 0.2em;
 }
 
