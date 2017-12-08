@@ -89,6 +89,7 @@
                                             <li><a href="call-for-regular-papers.html"><s>Call for Regular Papers</s> (closed)</a></li>
                                             <li><a href="call-for-workshop.html"><s>Call for Workshop Proposals</s> (closed)</a></li>
                                             <li><a href="call-for-tutorial.html"><s>Call for Tutorial Proposals</s> (closed)</a></li>
+                                            <li><a href="grants.html"><s>Travel Grants</s> (closed)</a></li>
                                         </ul>
                            </li>
                                     <li>
@@ -113,16 +114,6 @@
     								     <li><a href="social.html">Social Events</a></li>
                                             </ul>
                                         </li>
-
-
-
-
-
-
-			                        <li class="active">
-                                            <a href="grants.html">Travel Grants</a>
-                                        </li>
-
 
 			                        <li class="active">
                                            <a href="#" class="has-child no-link">Registration</a>
@@ -149,7 +140,9 @@
 
 
 
-
+                                    <li class="active">
+                                        <a href="proceedings.html">Proceedings</a>
+                                    </li>
 
 
 
