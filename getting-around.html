@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href="assets/css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/selectize.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/vanillabox/vanillabox.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="shortcut icon" href="assets/myfavicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/myfavicon.ico" type="image/x-icon">
+
+    <script language="JavaScript1.2">
+            var howOften = 4; //number often in seconds to rotate
+            var current = 0; //start the counter at 0
+            var ns6 = document.getElementById&&!document.all; //detect netscape 6
+            // place your images, text, etc in the array elements here
+            var items = new Array();
+            items[0]="<img alt='Las Vegas in Winter!' src='assets/img/vegas1.jpg' height='400' width='710' border='0'/>"; 
+            items[1]="<img alt='Las Vegas in Winter!' src='assets/img/vegas2.jpg' height='400' width='710' border='0'/>"; 
+            items[2]="<img alt='Las Vegas in Winter!' src='assets/img/vegas3.jpg' height='400' width='710' border='0'/>"; 
+            items[3]="<img alt='Las Vegas in Winter!' src='assets/img/vegas4.jpg' height='400' width='710' border='0'/>"; 
+
+            function rotater() {
+                document.getElementById("rotating_pics").innerHTML = items[current];
+                current = (current==items.length-1) ? 0 : current + 1;
+                setTimeout("rotater()",howOften*1000);
+            }
+
+            function rotater() {
+                if(document.layers)
+                {
+                    document.placeholderlayer.document.write(items[current]);
+                    document.placeholderlayer.document.close();
+                }
+                if(ns6)document.getElementById("rotating_pics").innerHTML=items[current]
+                    if(document.all)
+                        placeholderdiv.innerHTML=items[current];
+                        current = (current==items.length-1) ? 0 : current + 1; //increment or reset
+                        setTimeout("rotater()",howOften*1000);
+                    }
+                    window.onload=rotater;
+//-->
+</script>
+
+
+
+
+<title>2017 ACM/IFIP/USENIX International Middleware Conference</title>
+</head>
+<body class="page-sub-page page-microsite">
+    <!-- Wrapper -->
+    <div class="wrapper">
+        <!-- Header -->
+        <div class="navigation-wrapper">
+            <div class="primary-navigation-wrapper">
+                <header class="navbar" id="top" role="banner">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <nav class="collapse navbar-collapse bs-navbar-collapse navbar-left" role="navigation">
+                            <ul class="nav navbar-nav">
+                                <li class="active">
+                                    <a href="index.html">Home</a>
+                                </li>
+<!--                                    <li>
+                                        <a href="#" class="has-child no-link">Participation</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="camera-ready-instructions.html">Camera-ready instructions</a></li>
+                                            <li><a href="poster-instructions.html">Poster instructions</a></li>
+                                            <li><a href="scholarships.html">Student scholarships</a></li>
+                                            <li><a href="papers.html">Call for papers</a></li>
+                                            <li><a href="posters.html">Call for posters</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="has-child no-link">Conference attendees</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="registration.html">Registration</a></li>
+                                            <li><a href="visa.html">Visa support letters</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="has-child no-link">Program</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="schedule.html">Schedule</a></li>
+                                            <li><a href="keynotes.html">Keynote Speakers</a></li>
+                                            <li><a href="poster-sessions.html">Poster Sessions</a></li>
+                                        </ul>
+                                    </li> -->
+                                    <li>
+                                        <a href="#" class="has-child no-link">Organization</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="organizing-committee.html">Organizing Committee</a></li>
+                                            <li><a href="program-committee.php">Program Committee</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        <a href="#" class="has-child no-link">Calls</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="call-for-industry-track-paper.html"><s>Call for Industry Track Papers</s> (closed)</a></li>
+                                            <li><a href="workshops.html"><s>Call for Workshop Papers</s> (closed)</a></li>
+                                            <li><a href="call-for-doctoral-symposium-papers.html"><s>Call for Doctoral Symposium Papers</s> (closed)</a></li>
+                                            <li><a href="call-for-demos-and-posters.html"><s>Call for Demos and Posters</s> (closed)</a></li>
+                                            <li><a href="call-for-regular-papers.html"><s>Call for Regular Papers</s> (closed)</a></li>
+                                            <li><a href="call-for-workshop.html"><s>Call for Workshop Proposals</s> (closed)</a></li>
+                                            <li><a href="call-for-tutorial.html"><s>Call for Tutorial Proposals</s> (closed)</a></li>
+                                            <li><a href="grants.html"><s>Travel Grants</s> (closed)</a></li>
+                                        </ul>
+                                    </li>
+
+<!--                                    <li>
+                                        <a href="#" class="has-child no-link">Sponsorship</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="sponsors.html">Our sponsors</a></li>
+                                            <li><a href="becoming-sponsor.html">Becoming a sponsor</a></li>
+                                        </ul>
+                                    </li>
+                                -->
+                                <li>
+                                    <a href="#" class="has-child no-link">Venue</a>
+                                    <ul class="list-unstyled child-navigation">
+                                        <li><a href="about-lv.html">About Las Vegas</a></li>
+                                        <li><a href="conference-location.html">Conference Location</a></li>
+                                        <li><a href="travel.html">Travel</a></li>
+                                        <li><a href="accommodation.html">Accommodation</a></li>
+                                    </ul>
+                                </li> 
+
+                                <li>
+                                    <a href="#" class="has-child no-link">Program</a>
+                                    <ul class="list-unstyled child-navigation">
+                                        <li><a href="overview.html">Overview</a></li>
+                                        <li><a href="keynotes.html">Keynotes</a></li>
+                                        <li><a href="tutorials.html">Tutorials</a></li>
+                                        <li><a href="workshops.html">Workshops</a></li>
+                                        <li><a href="accepted.html">Accepted Papers</a></li>
+                                        <li><a href="posters.html">Demos & Posters</a></li>
+                                        <li><a href="doctoral.html">Doctoral Symposium</a></li>
+                                        <li><a href="social.html">Social Events</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="active">
+                                   <a href="#" class="has-child no-link">Registration</a>
+                                   <ul class="list-unstyled child-navigation">
+                                    <li><a href="registration.html">Fees</a></li>
+                                    <li><a href="visa-letters.html">Visa letters</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="active">
+                                <a href="#" class="has-child no-link"><strong>For Attendees</strong></a>
+                                <ul class="list-unstyled child-navigation">
+                                    <li><a href="getting-around.html">Getting Around in Las Vegas</a></li>
+                                    <li><a href="parking.html">Parking</a></li>
+                                    <li><a href="medical.html">Health and Medical Care</a></li>
+                                    <li><a href="money.html">Money Matters</a></li>
+                                    <li><a href="things-to-do.html">Las Vegas Things to Do</a></li>
+                                    <li><a href="presenters.html">For Presenters</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="active">
+                                <a href="proceedings.html">Proceedings</a>
+                            </li>
+
+                        </ul>
+                    </nav>
+                    <!-- /.navbar collapse-->
+                    <div class="social">
+<!--                                <div class="icons">
+</div> -->
+<!-- /.icons -->
+</div>
+</div>
+<!-- /.container -->
+</header>
+<!-- /.navbar -->
+</div>
+<!-- /.primary-navigation -->
+</div>
+<!-- end Header -->
+<div id="page-content">
+    <!-- Slider -->
+    <div id="slider">
+        <div class="container">
+            <div class="slider-wrapper">
+                <div class="row">
+                    <div class="col-md-9 col-sm-12">
+                        <div class="row">
+                            <div class="image-carousel">
+                                <div class="slide">
+                                    <div class="image-carousel-slide" id="rotating_pics"></div>
+                                </div>
+                                <!-- /.slide -->
+                            </div>
+                            <!-- /.image-carousel -->
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!-- /.col-md-9 -->
+                    <div class="col-md-3 col-sm-12">
+                        <header>
+                            <h2>ACM/IFIP/USENIX Middleware 2017</h2>
+                            <h3 style="color:white">Las Vegas, Nevada</h3>
+                            <h3 style="color:white">Dec 11-15, 2017</h3>
+                        </header>
+                    </div>
+                    <!-- /.col-md-3 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.slider-wrapper -->
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- end Slider -->
+    <!-- Content -->
+    <div class="block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10">
+                    <section id="main-content">
+                        <div class="section-content">
+                            <header>
+                                <h2>For Attendees: Getting Around in Las Vegas</h2>
+                            </header>
+
+                            <p>
+                                <ol>
+                                    <li><b>Getting from the airport to your hotel</b>:</li>
+                                    <ul>
+                                        <li>First, check whether your hotel offers a shuttle. Many hotels do. The conference hotel, Embassy Suites, <i>does not</i> provide <i>pick-up</i> from the airport, but <i>does</i> provide scheduled <i>drop-off</i> to the airport. Please check with the hotel reception or concierge.</li>
+                                        <li>Take a taxi, or Uber or Lyft -- getting to most hotels near the conference venue and on the strip will be under $20.</li>
+                                        <li>Take an airport shuttle -- details <a href="https://www.frommers.com/destinations/las-vegas/planning-a-trip/getting-around" target="blank">here</a>.</li>
+                                    </ul>
+                                    <br>
+
+                                    <li><b>Getting around Las Vegas</b>:</li>
+                                    <ul>
+                                        <li>Again, check whether your hotel offers a shuttle. The conference hotel, Embassy Suites, <i>does</i> provide scheduled service to the strip. Please check with the hotel reception or concierge.</li>
+                                        <li>Take a taxi, Uber or Lyft. Most Vegas attractions are within a 2 mile radius of the strip. The strip itself is about a mile or two away from the conference location and hotel.</li>
+                                    </ul>
+                                    <br>
+
+                                    <a id="shuttle" class="anchor"></a>
+                                    <li><b>Getting to the <a href="conference-location.html">conference venue</a></b>:</li>
+                                    <ul>
+                                        <li><b>From the conference hotel</b>: <i>Shuttles will be available every morning to the UNLV Students Union (conference location) and will take you back to the hotel at the end of the day</i>. Each shuttle holds about 50 people. The shuttle will pick-up at the lobby of the Embassy Suites (on Swenson Street) and drop-off outside the UNLV student union (conference venue). The shuttle ride should be about 5-10mins. The shuttle schedule is as follows:</li>
+
+                                        <b>Monday (Dec 11)</b><br>
+                                        <ul>
+                                            <li>Morning pick-up from Embassy Suites: 7:45am and 8:00am </li>
+                                            <li>Evening pick-up from outside the UNLV student union: 5:30pm and 5:45pm</li>
+                                        </ul>
+                                        <br>
+
+                                        <b>Tuesday (Dec 12)</b><br>
+                                        <ul>
+                                            <li>Morning pick-up from Embassy Suites: 7:45am and 8:00am </li>
+                                            <li>Evening pick-up from outside the UNLV student union: 5:30pm and 5:45pm</li>
+                                        </ul>
+                                        <br>
+
+                                        <b>Wednesday (Dec 13)</b> 
+                                        <ul>
+                                            <li>Morning pick-up from Embassy Suites: 8:00am and 8:15am </li>
+                                            <div> <img src="assets/reception_map.png" width="70%"></div>
+                                            <li>Evening pick-up from outside the UNLV student union (after reception): 7:45pm and 8:00pm</li>
+                                        </ul>
+                                        <br>
+
+                                        <b>Thursday (Dec 14)</b> 
+                                        <ul>
+                                            <li>Morning pick-up from Embassy Suites: 8:00am and 8:15am </li>
+                                            <li>Evening pick-up from outside the UNLV student union to Stratosphere (banquet): 6:30pm, 3 shuttles</li>
+                                            <li>Night pick-up from Stratosphere and drop-off at Las Vegas Strip (optional) and Embassy Suites: 9:45pm, 10:00pm, and 10:15pm</li>
+                                        </ul>
+
+                                        <b>Friday (Dec 15)</b> 
+                                        <ul>
+                                            <li>Morning pick-up from Embassy Suites: 8:00am and 8:15am </li>
+                                            <li>Afternoon pick-up from outside the UNLV student union (to Embassy Suites): 2:00pm</li>
+                                        </ul>
+                                        <br>
+
+                                    </ul>
+                                    <li><b>From other hotels</b>: If your hotel is not within walking distance to the venue or the conference hotel, we recommend taking an Uber/Lyft or a taxi.</li>
+                                    <br>
+
+                                    <li><b>Walking</b>: If your hotel is within walking distance of the conference venue, you may consider walking. Please check the weather and temperature before doing so. Please also be careful and aware of your belongings and surroundings when walking, as you would in any other new city. We recommend walking through the UNLV campus, assuming you are staying at the conference hotel.</li>
+                                    <br>
+
+                                    <li><b>Renting a car</b>:</li>
+                                    <ul>
+                                        <li>Unless you plan on traveling outside Las Vegas city, you may not need to rent a car. Between rental costs, insurance, parking, and gas, you may be better off taking Uber or Lyft. Consider your costs carefully before deciding to rent.</li>
+                                    </ul>
+                                </ol>
+
+                                In our opinion, <a href="https://www.frommers.com/destinations/las-vegas/planning-a-trip/getting-around" target="blank">Frommers</a> has accurate details about how to get around Las Vegas.
+
+
+
+                            </p>
+
+
+
+                        </div>
+                        <!-- /.section-content -->
+                    </section>
+                    <!-- /.main-content -->
+                </div>
+                <!-- /.col-md-6 -->
+
+                <div class="col-md-2">
+                    <a class="twitter-timeline"
+                    href="https://twitter.com/middleware2017" data-height="60em" data-chrome="transparent noborders">
+                    Tweets by @middleware2017
+                </a>                                            
+            </div>
+
+
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</div>
+<!-- end Content -->
+</div>
+<!-- Footer -->
+<footer id="page-footer">
+    <section id="footer-top">
+        <div class="container">
+            <div class="footer-inner">
+<!--                            <div class="footer-social">
+                                <figure>Follow us:</figure>
+                                <div class="icons">
+                                </div> 
+                            </div> -->
+                            <!-- /.social -->
+                        </div>
+                        <!-- /.footer-inner -->
+                    </div>
+                    <!-- /.container -->
+                </section>
+                <!-- /#footer-top -->
+                <section id="footer-bottom">
+                    <div class="container">
+                        <div class="footer-inner">
+                            <div class="copyright"></div>
+                            <!-- /.copyright -->
+                        </div>
+                        <!-- /.footer-inner -->
+                    </div>
+                    <!-- /.container -->
+                </section>
+                <!-- /#footer-bottom -->
+            </footer>
+            <!-- end Footer -->
+        </div>
+    </body>
+    <script type="text/javascript" src="assets/js/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/selectize.min.js"></script>
+    <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.placeholder.js"></script>
+    <script type="text/javascript" src="assets/js/jQuery.equalHeights.js"></script>
+    <script type="text/javascript" src="assets/js/icheck.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.vanillabox-0.1.5.min.js"></script>
+    <script type="text/javascript" src="assets/js/retina-1.1.0.min.js"></script>
+    <script type="text/javascript" src="assets/js/custom.js"></script>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<!--    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','../../www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-39874729-4', 'auto');
+        ga('send', 'pageview');
+    </script> -->
+
+    </html>
